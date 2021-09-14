@@ -313,7 +313,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["测试"]
+    homePoetry = ["<br /><br />乘风好试马<br /><br />乘风好破冰<br /><br />乘风好去长空里<br /><br />直下看河山"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
