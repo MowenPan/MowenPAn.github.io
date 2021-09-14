@@ -8,7 +8,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>乘风</title>
-        <link>https://MowenPan.github.io/</link>
+        <link>https://mowenpan.xyz/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
         <generator>Hugo 0.88.1 https://gohugo.io/</generator>
         
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 14 Sep 2021 13:15:08 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 14 Sep 2021 15:53:44 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://MowenPan.github.io/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://mowenpan.xyz/rss.xml" />
         
         
             <item>
                 <title>测试</title>
-                <link>https://MowenPan.github.io/posts/%E6%B5%8B%E8%AF%95/</link>
-                <guid isPermaLink="true">https://MowenPan.github.io/posts/%E6%B5%8B%E8%AF%95/</guid>
+                <link>https://mowenpan.xyz/posts/%E6%B5%8B%E8%AF%95/</link>
+                <guid isPermaLink="true">https://mowenpan.xyz/posts/%E6%B5%8B%E8%AF%95/</guid>
                 <pubDate>Tue, 14 Sep 2021 13:14:00 &#43;0800</pubDate>
                 
                     <author>mikufan.pan@foxmail.com (暮颜)</author>
@@ -65,8 +65,8 @@
         
             <item>
                 <title>Hello World</title>
-                <link>https://MowenPan.github.io/posts/hello-world/</link>
-                <guid isPermaLink="true">https://MowenPan.github.io/posts/hello-world/</guid>
+                <link>https://mowenpan.xyz/posts/hello-world/</link>
+                <guid isPermaLink="true">https://mowenpan.xyz/posts/hello-world/</guid>
                 <pubDate>Tue, 14 Sep 2021 06:03:57 &#43;0800</pubDate>
                 
                     <author>mikufan.pan@foxmail.com (暮颜)</author>
