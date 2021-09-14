@@ -222,9 +222,9 @@ uglyURLs = false
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
-    [[menu.main]]
-        weight = 7
-        identifier = "lang-switcher"
+    # [[menu.main]]
+    #     weight = 7
+    #     identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
     #     identifier = "search"
