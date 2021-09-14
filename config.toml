@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://MowenPan.github.io"
+baseURL = "https://mowenpan.xyz"
 title = "乘风"
 languageCode = "zh-CN"
 hasCJKLanguage = true
