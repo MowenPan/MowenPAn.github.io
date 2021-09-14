@@ -46,13 +46,19 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
+    # categories = "/categories/:slug/"
     tags = "/tags/:slug/"
+    essays = "/essays/:slug/"
+    notes = "/notes/:slug/"
+    excerpt = "/excerpt/:slug/"
 
 # 类别
 [taxonomies]
-    category = "categories"
+    # category = "categories"
     tag = "tags"
+    essays = "essays"
+    notes = "notes"
+    excerpt = "excerpt"
 
 # 修改时间
 [frontmatter]
@@ -195,32 +201,50 @@ uglyURLs = false
         weight = 1
         pre = "internal"
         post = "home"
+    # [[menu.main]]
+    #     url = "/posts/"
+    #     name = "文章"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = "archive"
     [[menu.main]]
-        url = "/posts/"
-        name = "文章"
+        url = "/essays/"
+        name = "随笔"
         weight = 2
         pre = "internal"
-        post = "archive"
+        # post = "archive"
+    # [[menu.main]]
+    #     url = "/categories/"
+    #     name = "分类"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "th"
     [[menu.main]]
-        url = "/categories/"
-        name = "分类"
+        url = "/notes/"
+        name = "笔记"
         weight = 3
         pre = "internal"
-        post = "th"
+        # post = "th"
+    [[menu.main]]
+        url = "/excerpt/"
+        name = "摘抄"
+        weight = 4
+        pre = "internal"
+        # post = "th"
     [[menu.main]]
         url = "/tags/"
         name = "标签"
-        weight = 4
+        weight = 5
         pre = "internal"
-        post = "tags"
+        # post = "tags"
     [[menu.main]]
         url = "/about/"
         name = "关于"
-        weight = 5
+        weight = 6
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 6
+        weight = 7
         identifier = "theme-switcher"
     # [[menu.main]]
     #     weight = 7
@@ -247,7 +271,7 @@ uglyURLs = false
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
-    displayHeaderInHome = false
+    displayHeaderInHome = true
     # 说明：对弹性布局的顶栏无效
 
     # 背景
@@ -314,7 +338,7 @@ uglyURLs = false
     ## 「诗意人生」
     # 诗句，支持 Markdown
     # homePoetry = ["<p style='line-height: 3.5em;padding-top: 30px;'>乘风好试马<br />乘风好破冰<br />乘风好去长空里<br />直下看河山</p>"]
-    homePoetry = ["<strong><p>乘风好试马</p><p>乘风好破冰</p><p>乘风好去长空里</p><p>直下看河山</p></strong>"]
+    homePoetry = ["<strong><p>風與風交匯</p><p>撕裂天空的禁錮</p><p>驚濤拍岸，摧枯拉朽</p><p>黃葉飄落</p><p>婀娜、輕盈</p><p>清晰的脈絡是四季的詩篇</p></strong>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -344,7 +368,7 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2021-09-10T20:17:43+00:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
@@ -369,7 +393,8 @@ uglyURLs = false
     # 的树状分类，故如需保留树状分类，建议适应
     # Hugo 的设计理念——分区。
 
-    categoryBy = "categories"
+    # categoryBy = "categories"
+    categoryBy = "sections"
     # 注意：如果你设置为 `sections`，请务必将
     #      此配置文件中的类别（taxonomies）中
     #      的 `categories` 删除，不然分类页
@@ -421,7 +446,8 @@ uglyURLs = false
     displayListTitle = true
 
     # 日期的格式
-    listDateFormat = "1 月 2 日"
+    # listDateFormat = "1 月 2 日"
+    listDateFormat = "2006-01-02"
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
@@ -753,7 +779,7 @@ uglyURLs = false
     publishedDateIcon = "calendar-alt"
 
     # 是否显示修改时间
-    displayModifiedDate = true
+    displayModifiedDate = false
     # 修改时间的图标
     modifiedDateIcon = "calendar-check"
 
@@ -780,7 +806,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
@@ -954,7 +980,7 @@ uglyURLs = false
     ######################################
     ## 字号（单位：px）
 
-    fontSize = 18
+    fontSize = 16
 
     ######################################
     ## 制表符的宽度
@@ -1030,7 +1056,6 @@ uglyURLs = false
 
     ######################################
     ## 中文标点符号字形纠正
-
     # 是否开启
     enableChinesePunctuationGlyphCorrection = true
 
