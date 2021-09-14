@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mowenpan.xyz/posts/</loc>
-    <lastmod>2021-09-14T13:14:54+08:00</lastmod>
-  </url><url>
     <loc>https://mowenpan.xyz/</loc>
-    <lastmod>2021-09-14T15:58:46+08:00</lastmod>
+    <lastmod>2021-09-14T16:28:42+08:00</lastmod>
   </url><url>
     <loc>https://mowenpan.xyz/posts/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2021-09-14T13:14:54+08:00</lastmod>
@@ -16,6 +13,9 @@
   </url><url>
     <loc>https://mowenpan.xyz/about/</loc>
     <lastmod>2021-09-14T15:58:46+08:00</lastmod>
+  </url><url>
+    <loc>https://mowenpan.xyz/posts/</loc>
+    <lastmod>2021-09-14T16:28:42+08:00</lastmod>
   </url><url>
     <loc>https://mowenpan.xyz/categories/</loc>
   </url><url>
