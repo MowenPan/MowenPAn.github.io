@@ -243,7 +243,7 @@ uglyURLs = false
     enableHeader = true
 
     # 是否自动隐藏
-    enableHeaderAutoHide = false
+    enableHeaderAutoHide = true
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
@@ -290,7 +290,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = false
+    displayMenuInHome = true
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -313,7 +313,8 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["<p style='line-height: 3.5em;padding-top: 30px;'>乘风好试马<br />乘风好破冰<br />乘风好去长空里<br />直下看河山</p>"]
+    # homePoetry = ["<p style='line-height: 3.5em;padding-top: 30px;'>乘风好试马<br />乘风好破冰<br />乘风好去长空里<br />直下看河山</p>"]
+    homePoetry = ["<p>乘风好试马</p><p>乘风好破冰</p><p>乘风好去长空里</p><p>直下看河山</p>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -504,7 +505,7 @@ uglyURLs = false
     #      者依然可能以浅色模式模式阅读你的博客。
     #      除非，你开启下方这个选项。
 
-    overrideSystemPreferences = false
+    overrideSystemPreferences = true
 
 
     ######################################
