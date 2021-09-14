@@ -314,7 +314,7 @@ uglyURLs = false
     ## 「诗意人生」
     # 诗句，支持 Markdown
     # homePoetry = ["<p style='line-height: 3.5em;padding-top: 30px;'>乘风好试马<br />乘风好破冰<br />乘风好去长空里<br />直下看河山</p>"]
-    homePoetry = ["<p>乘风好试马</p><p>乘风好破冰</p><p>乘风好去长空里</p><p>直下看河山</p>"]
+    homePoetry = ["<strong><p>乘风好试马</p><p>乘风好破冰</p><p>乘风好去长空里</p><p>直下看河山</p></strong>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
