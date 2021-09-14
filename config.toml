@@ -188,43 +188,43 @@ uglyURLs = false
 #               `lang-switcher`、`search`）
 
 [menu]
-    ## 菜单栏
-    # [[menu.main]]
-    #     url = "/"
-    #     name = "首页"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "home"
+    # 菜单栏
+    [[menu.main]]
+        url = "/"
+        name = "首页"
+        weight = 1
+        pre = "internal"
+        post = "home"
     [[menu.main]]
         url = "/posts/"
         name = "文章"
         weight = 2
         pre = "internal"
         post = "archive"
-    # [[menu.main]]
-    #     url = "/categories/"
-    #     name = "分类"
-    #     weight = 3
-    #     pre = "internal"
-    #     post = "th"
-    # [[menu.main]]
-    #     url = "/tags/"
-    #     name = "标签"
-    #     weight = 4
-    #     pre = "internal"
-    #     post = "tags"
+    [[menu.main]]
+        url = "/categories/"
+        name = "分类"
+        weight = 3
+        pre = "internal"
+        post = "th"
+    [[menu.main]]
+        url = "/tags/"
+        name = "标签"
+        weight = 4
+        pre = "internal"
+        post = "tags"
     [[menu.main]]
         url = "/about/"
         name = "关于"
         weight = 5
         pre = "internal"
         post = "user-circle"
-    # [[menu.main]]
-    #     weight = 6
-    #     identifier = "theme-switcher"
-    # [[menu.main]]
-    #     weight = 7
-    #     identifier = "lang-switcher"
+    [[menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
     # [[menu.main]]
     #     weight = 8
     #     identifier = "search"
@@ -243,11 +243,11 @@ uglyURLs = false
     enableHeader = true
 
     # 是否自动隐藏
-    enableHeaderAutoHide = true
+    enableHeaderAutoHide = false
     # 说明：仅对弹性布局的顶栏有效
 
     # 是否在首页显示
-    displayHeaderInHome = true
+    displayHeaderInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 背景
