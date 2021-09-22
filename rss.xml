@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.88.1 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Wed, 22 Sep 2021 08:41:13 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>无穷大与无穷小</title><link>https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/</guid><pubDate>Wed, 22 Sep 2021 16:07:05 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="无穷小">&lt;strong>无穷小&lt;/strong>&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.88.1 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Wed, 22 Sep 2021 08:47:49 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>无穷大与无穷小</title><link>https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/</guid><pubDate>Wed, 22 Sep 2021 16:07:05 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="无穷小">&lt;strong>无穷小&lt;/strong>&lt;/h2>
 &lt;p>无穷小的&lt;strong>定义&lt;/strong>：&lt;/p>
 &lt;blockquote>
-&lt;p>如果函数 $f(x)$ 当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的极限为零那么称函数 $f(x)$ 为当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的&lt;strong>无穷小&lt;/strong>。
-特别的，以零为极限的数列 ${ a_n }$ 称为 $n \rightarrow \infty$ 的无穷小&lt;/p>
+&lt;p>如果函数 $f(x)$ 当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的极限为零那么称函数 $f(x)$ 为当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的&lt;strong>无穷小&lt;/strong>。&lt;/p>
+&lt;p>特别的，以零为极限的数列 ${ a_n }$ 称为 $n \rightarrow \infty$ 的无穷小&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;em>注意：不要把无穷小与很小的数(例如百万分之一)混为一谈，因为无穷小是这样的函数，在$x \rightarrow x_0$ （或 $x \rightarrow \infty$）的过程中，这函数的绝对值能小于任意给定的正数 $\varepsilon$ ，而很小的数如百万分之一，就不能小于任意给定的正数 $\varepsilon$，例如取 $\varepsilon$ 等于千万分之一，则百万分之一就不能小于这个给定的 $\varepsilon$ .但零是可以作为无穷小的唯一的常数，因为如果$f(x) \equiv 0$，那么对于任意给定的 $\varepsilon &amp;gt; 0$ 总有 $\lvert f(x) \rvert &amp;lt; \varepsilon$ .&lt;/em>&lt;/p>
 &lt;p>定理：&lt;/p>
 &lt;blockquote>
-&lt;p>在自变量的&lt;strong>同一变化过程&lt;/strong> $x \rightarrow x_0$ （或 $x \rightarrow \infty$）中，函数 $f(x)$ 具有极限 $A$ 的充分必要条件 $f(x) = A + \alpha$ ，其中 $\alpha$ 是无穷小。&lt;/p>
+&lt;p>在自变量的&lt;strong>同一变化过程&lt;/strong> $x \rightarrow x_0$ （或 $x \rightarrow \infty$）中，函数 $f(x)$ 具有极限 $A$ 的充分必要条件为 $f(x) = A + \alpha$ ，其中 $\alpha$ 是无穷小。&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="无穷大">&lt;strong>无穷大&lt;/strong>&lt;/h2>
 &lt;p>无穷大的定义：&lt;/p>
@@ -25,11 +25,11 @@ $$
 &lt;h2 id="无穷小的比较">&lt;strong>无穷小的比较&lt;/strong>&lt;/h2>
 &lt;p>定义：&lt;/p>
 &lt;blockquote>
-&lt;p>如果 $\lim \cfrac{\beta}{\alpha} = 0$ ，则称 $\beta$ 是 $\alpha$ 高阶的无穷小，记作 $\beta = o(\alpha)$
-如果 $\lim \cfrac{\beta}{\alpha} = \infty$ ，则称 $\beta$ 是 $\alpha$ 低阶的无穷小
-如果 $\lim \cfrac{\beta}{\alpha} = c \neq 0$ ，则称 $\beta$ 与 $\alpha$ 是同阶无穷小
-如果 $\lim \cfrac{\beta}{\alpha^k} = c \neq 0$ ，则称 $\beta$ 是关于 $\alpha$ 的 $k$ 阶无穷小
-如果 $\lim \cfrac{\beta}{\alpha} = 1$ ，则称 $\beta$ 与 $\alpha$ 是等价无穷小， 记作 $\alpha \sim \beta$&lt;/p>
+&lt;p>如果 $\lim \cfrac{\beta}{\alpha} = 0$ ，则称 $\beta$ 是 $\alpha$ 高阶的无穷小，记作 $\beta = o(\alpha)$&lt;/p>
+&lt;p>如果 $\lim \cfrac{\beta}{\alpha} = \infty$ ，则称 $\beta$ 是 $\alpha$ 低阶的无穷小&lt;/p>
+&lt;p>如果 $\lim \cfrac{\beta}{\alpha} = c \neq 0$ ，则称 $\beta$ 与 $\alpha$ 是同阶无穷小&lt;/p>
+&lt;p>如果 $\lim \cfrac{\beta}{\alpha^k} = c \neq 0$ ，则称 $\beta$ 是关于 $\alpha$ 的 $k$ 阶无穷小&lt;/p>
+&lt;p>如果 $\lim \cfrac{\beta}{\alpha} = 1$ ，则称 $\beta$ 与 $\alpha$ 是等价无穷小， 记作 $\alpha \sim \beta$&lt;/p>
 &lt;/blockquote>
 &lt;p>定理1：&lt;/p>
 &lt;blockquote>
