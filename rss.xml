@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.88.1 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Thu, 23 Sep 2021 01:04:11 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>常用积分方法</title><link>https://mowenpan.xyz/notes/ihysjifffhfa/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/ihysjifffhfa/</guid><pubDate>Thu, 23 Sep 2021 08:06:40 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="1公式法">&lt;strong>1、公式法&lt;/strong>&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.88.1 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Thu, 23 Sep 2021 01:07:21 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>常用积分方法</title><link>https://mowenpan.xyz/notes/ihysjifffhfa/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/ihysjifffhfa/</guid><pubDate>Thu, 23 Sep 2021 08:06:40 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="1公式法">&lt;strong>1、公式法&lt;/strong>&lt;/h2>
 &lt;p>使用积分表中的公式可直接求得积分。&lt;/p>
 &lt;h3 id="一含有-axb-的积分">&lt;strong>（一）含有 $ax+b$ 的积分&lt;/strong>&lt;/h3>
 &lt;p>$$
 \begin{align}
-\int \cfrac{\mathrm{d}x}{ax+b} &amp;amp;= \cfrac{1}{a} \ln \vert ax+1 \vert + C \&lt;/p>
-&lt;p>\int (ax + b)^{\mu} \mathrm{d}x &amp;amp;= \cfrac{1}{a(\mu + 1)}(ax + b)^{\mu + 1} + C \&lt;/p>
-&lt;p>\int \cfrac{x}{ax + b} \mathrm{d}x &amp;amp;= \cfrac{1}{a^2} (ax + b - b \ln{\vert ax + b \vert}) + C \&lt;/p>
-&lt;p>\int \cfrac{x^2}{ax + b} \mathrm{d}x &amp;amp;= \cfrac{1}{a^3} \left[ \cfrac{1}{2} (ax + b)^2 - 2b(ax + b) + b^2 \ln{\vert ax + b \vert} \right] + C \&lt;/p>
-&lt;p>\int \cfrac{\mathrm{d}x}{x(ax + b)} &amp;amp;= -\cfrac{1}{b} \ln{\left \vert \cfrac{ax + b}{x} \right \vert} + C \&lt;/p>
-&lt;p>\int \cfrac{\mathrm{d}x}{x^2 (ax + b)} &amp;amp;= -\cfrac{1}{bx} + \cfrac{a}{b^2} \ln{\left \vert \cfrac{ax + b}{x} \right \vert} + C \&lt;/p>
-&lt;p>\int \cfrac{x}{(ax + b)^2} \mathrm{d}x &amp;amp;= \cfrac{1}{a^2} \left( ln{\lvert ax + b \rvert + \cfrac{b}{ax + b}} \right) + C \&lt;/p>
-&lt;p>\int \cfrac{x^2}{(ax + b)^2} \mathrm{d}x &amp;amp;= \cfrac{1}{a^3} \left( ax + b - 2b\ln{\lvert ax + b \rvert} - \cfrac{b^2}{ax + b} \right) + C \&lt;/p>
-&lt;p>\int \cfrac{\mathrm{d}x}{x (ax + b)^2} &amp;amp;= \cfrac{1}{b(ax + b)} - \cfrac{1}{b^2} \ln{\left \vert \cfrac{ax + b}{x} \right \vert} + C \&lt;br>
+\int \cfrac{\mathrm{d}x}{ax+b} &amp;amp;= \cfrac{1}{a} \ln \vert ax+1 \vert + C \\&lt;/p>
+&lt;p>\int (ax + b)^{\mu} \mathrm{d}x &amp;amp;= \cfrac{1}{a(\mu + 1)}(ax + b)^{\mu + 1} + C \\&lt;/p>
+&lt;p>\int \cfrac{x}{ax + b} \mathrm{d}x &amp;amp;= \cfrac{1}{a^2} (ax + b - b \ln{\vert ax + b \vert}) + C \\&lt;/p>
+&lt;p>\int \cfrac{x^2}{ax + b} \mathrm{d}x &amp;amp;= \cfrac{1}{a^3} \left[ \cfrac{1}{2} (ax + b)^2 - 2b(ax + b) + b^2 \ln{\vert ax + b \vert} \right] + C \\&lt;/p>
+&lt;p>\int \cfrac{\mathrm{d}x}{x(ax + b)} &amp;amp;= -\cfrac{1}{b} \ln{\left \vert \cfrac{ax + b}{x} \right \vert} + C \\&lt;/p>
+&lt;p>\int \cfrac{\mathrm{d}x}{x^2 (ax + b)} &amp;amp;= -\cfrac{1}{bx} + \cfrac{a}{b^2} \ln{\left \vert \cfrac{ax + b}{x} \right \vert} + C \\&lt;/p>
+&lt;p>\int \cfrac{x}{(ax + b)^2} \mathrm{d}x &amp;amp;= \cfrac{1}{a^2} \left( ln{\lvert ax + b \rvert + \cfrac{b}{ax + b}} \right) + C \\&lt;/p>
+&lt;p>\int \cfrac{x^2}{(ax + b)^2} \mathrm{d}x &amp;amp;= \cfrac{1}{a^3} \left( ax + b - 2b\ln{\lvert ax + b \rvert} - \cfrac{b^2}{ax + b} \right) + C \\&lt;/p>
+&lt;p>\int \cfrac{\mathrm{d}x}{x (ax + b)^2} &amp;amp;= \cfrac{1}{b(ax + b)} - \cfrac{1}{b^2} \ln{\left \vert \cfrac{ax + b}{x} \right \vert} + C \\&lt;br>
 \end{align}
 $$&lt;/p>
 &lt;h3 id="二含有-sqrtax--b-的积分">&lt;strong>（二）含有 $\sqrt{ax + b}$ 的积分&lt;/strong>&lt;/h3>
