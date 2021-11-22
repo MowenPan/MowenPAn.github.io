@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">乘风</title><subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle><updated>2021-11-22T08:21:58+00:00</updated><id>https://mowenpan.xyz/</id><link rel="alternate" type="text/html" href="https://mowenpan.xyz/"/><link rel="self" type="application/atom+xml" href="https://mowenpan.xyz/atom.xml"/><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator><entry><title type="text">常用积分方法</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/"/><id>https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-11-22T15:20:26+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1、公式法 使用积分表中的公式可直接求得积分。 （一）含有 $ax+b$ 的积分 $$ \begin{align} \int \cfrac{\mathrm{d}x}{ax+b} &amp;amp;= \cfrac{1}{a} \ln \vert ax+1 \vert +……</summary><content type="html">&lt;h2 id="1公式法">&lt;strong>1、公式法&lt;/strong>&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><title type="text">乘风</title><subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle><updated>2021-11-22T08:40:29+00:00</updated><id>https://mowenpan.xyz/</id><link rel="alternate" type="text/html" href="https://mowenpan.xyz/"/><link rel="self" type="application/atom+xml" href="https://mowenpan.xyz/atom.xml"/><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><generator uri="https://gohugo.io/" version="0.89.4">Hugo</generator><entry><title type="text">常用积分方法</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/"/><id>https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-11-22T15:20:26+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1、公式法 使用积分表中的公式可直接求得积分。 （一）含有 $ax+b$ 的积分 $$ \begin{align} \int \cfrac{\mathrm{d}x}{ax+b} &amp;amp;= \cfrac{1}{a} \ln \vert ax+1 \vert +……</summary><content type="html">&lt;h2 id="1公式法">&lt;strong>1、公式法&lt;/strong>&lt;/h2>
 &lt;p>使用积分表中的公式可直接求得积分。&lt;/p>
 &lt;h3 id="一含有-axb-的积分">&lt;strong>（一）含有 $ax+b$ 的积分&lt;/strong>&lt;/h3>
 &lt;p>$$
@@ -283,71 +283,69 @@ $$&lt;/p>
 $$&lt;/p>
 &lt;/blockquote>
 &lt;p>$$
-一般地，对于积分 $\int f(ax + b) \mathrm{d}x (a \neq 0)$，总可做变换 $u = ax + b$ ，把它化为
+一般地，对于积分 \int f(ax + b) \mathrm{d}x (a \neq 0)，总可做变换 u = ax + b ，把它化为
 $$&lt;/p>
-&lt;p>\int f(ax + b) \mathrm{d}x = \int \cfrac{1}{a} f(ax + b) \mathrm{d}(ax + b) = \cfrac{1}{a} \left[ \int f(u) \mathrm{d}u \right]_{u = ax + b}&lt;/p>
-&lt;p>$$&lt;/p>
+&lt;p>$$
+\int f(ax + b) \mathrm{d}x = \int \cfrac{1}{a} f(ax + b) \mathrm{d}(ax + b) = \cfrac{1}{a} \left[ \int f(u) \mathrm{d}u \right]_{u = ax + b}
+$$&lt;/p>
 &lt;blockquote>
 &lt;p>求 $\displaystyle \int \frac{x^2}{(x + 2)^3} \mathrm{d}x$ .&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;strong>解&lt;/strong>：令 $u = x + 2$ ，则 $x = u - 2,\mathrm{d}x = \mathrm{d}u$ .于是
-$$&lt;/p>
-&lt;p>\int \cfrac{x^2}{(x + 2)^2} \mathrm{d}x = \int \cfrac{(u - 2)^2}{u^3} \mathrm{d}u = \int (u^2 - 4u + 4)u^{-3} \mathrm{d}u \newline
-=\int(u^{-1} - 4u^{-2} + 4u^{-3}) \mathrm{d}u \newline
-=\ln \lvert u \rvert + 4u^{-1} - 2u^{-2} + C \newline
-=\ln{\lvert x + 2 \rvert} + \cfrac{4}{x + 2} - \cfrac{2}{(x + 2)^2} + C&lt;/p>
+&lt;p>&lt;strong>解&lt;/strong>：令 $u = x + 2$ ，则 $x = u - 2,\mathrm{d}x = \mathrm{d}u$ .于是&lt;/p>
 &lt;p>$$
-一般地，对于 $\sin^{2k + 1}x \cos^n x$ 或 $\sin^n x \cos^{2k + 1}x$ （其中 $k \in \mathbf{N}$）型函数的积分总可依次做变换 $u = \cos x$ 或 $u = \sin x$ 。&lt;/p>
+\begin{align}
+\int \cfrac{x^2}{(x + 2)^2} \mathrm{d}x &amp;amp;= \int \cfrac{(u - 2)^2}{u^3} \mathrm{d}u = \int{(u^2 - 4u + 4) u^{-3}} \mathrm{d}u \nonumber \newline
+&amp;amp;=\int(u^{-1} - 4u^{-2} + 4u^{-3}) \mathrm{d}u \nonumber \newline
+&amp;amp;=\ln \lvert u \rvert + 4u^{-1} - 2u^{-2} + C \nonumber \newline
+&amp;amp;=\ln{\lvert x + 2 \rvert} + \cfrac{4}{x + 2} - \cfrac{2}{(x + 2)^2} + C \nonumber
+\end{align}
+$$&lt;/p>
+&lt;p>一般地，对于 $\sin^{2k + 1}x \cos^n x$ 或 $\sin^n x \cos^{2k + 1}x$ （其中 $k \in \mathbf{N}$）型函数的积分总可依次做变换 $u = \cos x$ 或 $u = \sin x$ 。&lt;/p>
 &lt;blockquote>
 &lt;p>求 $\displaystyle \int \sin^2 x \cos^5 x \mathrm{d}x$&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;strong>解：&lt;/strong>
-$$&lt;/p>
-&lt;p>\begin{split}
+&lt;p>&lt;strong>解：&lt;/strong>&lt;/p>
+&lt;p>$$
+\begin{split}
 \int \sin^2 x \cos^5 x \mathrm{d}x &amp;amp;= \int \sin^2 x \cos^4 x \cos x \mathrm{d}x \newline
 &amp;amp;= \int \sin^2 x (1 - \sin^2 x)^2 \mathrm{d} \sin x \newline
 &amp;amp;= \int (\sin^2 x - 2\sin^4 x + \sin^6 x) \mathrm{d} \sin x \newline
 &amp;amp;= \cfrac{1}{3} \sin^3 x - \cfrac{2}{5} \sin^5 x + \cfrac{1}{7} \sin^7 x + C
-\end{split}&lt;/p>
-&lt;p>$$
-一般地对于 $\sin^{2k} x \cos^{2l} x (k,l \in \mathbf{N})$ 型函数，可利用三角恒等式：$\sin^2 x = \cfrac{1}{2} (1 - \cos 2x),\cos^2 x = \cfrac{1}{2} (1 + \cos 2x)$ 化成 $\cos 2x$ 多项式，然后求得积分。&lt;/p>
+\end{split}
+$$&lt;/p>
+&lt;p>一般地对于 $\sin^{2k} x \cos^{2l} x (k,l \in \mathbf{N})$ 型函数，可利用三角恒等式：$\sin^2 x = \cfrac{1}{2} (1 - \cos 2x),\cos^2 x = \cfrac{1}{2} (1 + \cos 2x)$ 化成 $\cos 2x$ 多项式，然后求得积分。&lt;/p>
 &lt;blockquote>
 &lt;p>求 $\displaystyle \int \sin^2x \cos^4 x , \mathrm{d}x$ .&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;strong>解：&lt;/strong>
-$$&lt;/p>
-&lt;p>\begin{split}
+&lt;p>&lt;strong>解：&lt;/strong>&lt;/p>
+&lt;p>$$
+\begin{split}
 \int \sin^2x \cos^4 x , \mathrm{d}x &amp;amp;= \cfrac{1}{8} \int (1 - \cos{2x})(1 + \cos{2x}) , \mathrm{d}x \newline
 &amp;amp;= \cfrac{1}{8} \int (1 + \cos{2x} - \cos^2{2x} - \cos^3{2x}) , \mathrm{d}x \newline
 &amp;amp;= \cfrac{1}{8} \int (\cos{2x} - \cos^3{2x}) , \mathrm{d}x + \cfrac{1}{8} \int (1 - \cos^2{2x}) , \mathrm{d}x \newline
 &amp;amp;= \cfrac{1}{8} \int \sin^2{2x} \cdot \cfrac{1}{2} \mathrm{d}(\sin{2x}) + \cfrac{1}{8} \int \cfrac{1}{2} (1 - \cos{4x}) , \mathrm{d}x \newline
 &amp;amp;= \cfrac{1}{48} \sin^3{2x} + \cfrac{x}{16} - \cfrac{1}{64} \sin{4x} + C
-\end{split}&lt;/p>
-&lt;p>$$
-一般地，对于 $\tan^n x \sec^{2k} x$ 或 $\tan^{2k - 1} x \sec^n x , (n,k \in \mathbf{N_+})$ 型，可依次做变换 $u = \tan x$ 或 $u = \sec x$ 求得结果。&lt;/p>
+\end{split}
+$$&lt;/p>
+&lt;p>一般地，对于 $\tan^n x \sec^{2k} x$ 或 $\tan^{2k - 1} x \sec^n x , (n,k \in \mathbf{N_+})$ 型，可依次做变换 $u = \tan x$ 或 $u = \sec x$ 求得结果。&lt;/p>
 &lt;blockquote>
 &lt;p>求 $\displaystyle \int \tan^5 x \sec^3 x , \mathrm{d}x$ .&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;strong>解：&lt;/strong>
-$$&lt;/p>
-&lt;p>\begin{split}
+&lt;p>&lt;strong>解：&lt;/strong>&lt;/p>
+&lt;p>$$
+\begin{split}
 \int \tan^5 x \sec^3 x , \mathrm{d}x &amp;amp;= \int \tan^4 x \sec^2 x \sec x \tan x , \mathrm{d}x \newline
 &amp;amp;= \int (\sec^2 x - 1)^2 \sec^2 x , \mathrm{d}(\sec x) \newline
 &amp;amp;= \int (\sec^6 x - 2\sec^4 x \sec^2 x) , \mathrm{d}(\sec x) \newline
 &amp;amp;= \cfrac{1}{7} \sec^7 x - \cfrac{2}{5} \sec^5 x + \cfrac{1}{3} \sec^3 x + C
-\end{split}&lt;/p>
-&lt;p>$$&lt;/p>
+\end{split}
+$$&lt;/p>
 &lt;h3 id="第二类换元法">&lt;strong>第二类换元法&lt;/strong>&lt;/h3>
 &lt;blockquote>
 &lt;p>&lt;strong>定理：&lt;/strong>
 设 $x = \psi (t)$ 是单调可导函数，并且 $\psi^{'}(t) \neq 0$ .又设 $f[\psi(t)]\psi^{'}(t)$具有原函数，则有：&lt;/p>
-&lt;/blockquote>
-&lt;p>$$&lt;/p>
-&lt;blockquote>
-&lt;p>\int f(x) , \mathrm{d}x = \left[ \int f[\psi(t)]\psi^{'}(t) , \mathrm{d}t \right]_{t = \psi^{-1}(x)}&lt;/p>
-&lt;p>$$
-其中 $\psi^{-1}(x)$是 $x = \psi (t)$ 的反函数.
-$$&lt;/p>
+&lt;p>$$\displaystyle \int f(x) , \mathrm{d}x = \left[ \int f[\psi(t)]\psi^{'}(t) , \mathrm{d}t \right]_{t = \psi^{-1}(x)}$$&lt;/p>
+&lt;p>其中 $\psi^{-1}(x)$是 $x = \psi (t)$ 的反函数.&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;strong>证明：&lt;/strong>&lt;/p>
 &lt;blockquote>
@@ -421,7 +419,6 @@ $$&lt;/p>
 \end{split}
 $$&lt;/p>
 &lt;h2 id="有理函数的积分">&lt;strong>有理函数的积分&lt;/strong>&lt;/h2>
-&lt;h3 id="有理函数的积分-1">&lt;strong>有理函数的积分&lt;/strong>&lt;/h3>
 &lt;p>两个多项式的商 $\cfrac{P(x)}{Q(x)}$ 称为&lt;strong>有理函数&lt;/strong>，又称&lt;strong>有理分式&lt;/strong>。假定分子多项式 $P(x)$ 和分母多项式 $Q(x)$ 之间没有公因式。当分子多项式 $P(x)$ 的次数小于分母多项式 $Q(x)$ 的次数时，称这个有理函数为&lt;strong>真分式&lt;/strong>，否则称为&lt;strong>假分式&lt;/strong>。
 利用多项式的除法，总可以将一个假分式化成一个多项式与一个真分式之和的形式，如：&lt;/p>
 &lt;p>$$
@@ -534,7 +531,7 @@ $$\int \frac{x+1}{x^{2}-5 x+9} \mathrm{~d} x=\frac{1}{2} \ln \left(x^{2}-5 x+9\r
 =&amp;amp; \int\left(x-2+\frac{2}{x^{2}}-\frac{1}{x}+\frac{x+1}{x^{2}-5 x+9}\right) \mathrm{d} x \newline
 =&amp;amp; \frac{x^{2}}{2}-2 x-\frac{2}{x}-\ln |x|+\frac{1}{2} \ln \left(x^{2}-5 x+9\right)+\frac{7}{\sqrt{11}} \arctan \left(\frac{2 x-5}{\sqrt{11}}\right)+C
 \end{aligned}
-$$&lt;/p></content><category scheme="https://mowenpan.xyz/notes/" term="notes" label="notes"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/><category scheme="https://mowenpan.xyz/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/" term="微积分" label="微积分"/><category scheme="https://mowenpan.xyz/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/></entry><entry><title type="text">诸子百家精选（一）</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/vuzibdjx.md/"/><id>https://mowenpan.xyz/excerpt/vuzibdjx.md/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-11-07T18:40:36+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">儒家 质胜文则野，文胜质则史。文质彬彬，然后君子。——《论语·雍也篇》 富贵不足以益，贫……</summary><content type="html">&lt;h2 id="儒家">&lt;strong>儒家&lt;/strong>&lt;/h2>
+$$&lt;/p></content><category scheme="https://mowenpan.xyz/notes/" term="notes" label="notes"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/><category scheme="https://mowenpan.xyz/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/" term="微积分" label="微积分"/><category scheme="https://mowenpan.xyz/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/></entry><entry><title type="text">诸子百家精选（一）</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/vuzibdjx.md/"/><id>https://mowenpan.xyz/excerpt/vuzibdjx.md/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-11-07T18:40:36+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">儒家 质胜文则野，文胜质则史。文质彬彬，然后君子。——《论语·雍也篇》 富贵不足以益，贫……</summary><content type="html">&lt;h2 id="儒家">&lt;strong>儒家&lt;/strong>&lt;/h2>
 &lt;p>&lt;strong>质胜文则野，文胜质则史。文质彬彬，然后君子。&lt;/strong>——《论语·雍也篇》&lt;/p>
 &lt;p>&lt;strong>富贵不足以益，贫贱不足以损。&lt;/strong> ——《孔子家语·五仪解》&lt;/p>
 &lt;p>&lt;strong>尺有所短，寸有所长&lt;/strong> ——《新序·杂事篇》&lt;/p>
@@ -569,7 +566,7 @@ $$&lt;/p></content><category scheme="https://mowenpan.xyz/notes/" term="notes" l
 &lt;p>&lt;strong>石可破也，而不可夺坚；丹可磨也，而不可夺赤。&lt;/strong> ——《季春纪·诚廉》&lt;/p>
 &lt;p>&lt;strong>竭泽而渔，岂不获得？而明年无鱼。焚薮而田，岂不获得，而明年无兽。&lt;/strong> ——《孝行览·义赏》&lt;/p>
 &lt;p>&lt;strong>流水不腐，户枢不蠹，动也。&lt;/strong>——《季春纪∙尽数》&lt;/p>
-&lt;p>&lt;strong>尺之木必有节目，寸之玉必有瑕瓋。&lt;/strong> ——《离俗览∙聚难》&lt;/p></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/" term="诸子百家" label="诸子百家"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/" term="诸子百家" label="诸子百家"/></entry><entry><title type="text">一些优美的宋词</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/ssci.text/"/><id>https://mowenpan.xyz/excerpt/ssci.text/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-11-06T21:03:56+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">《西江月·宝髻松松挽就》 宋·司马光 宝髻松松挽就，铅华淡淡妆成。 青烟翠雾罩轻盈，飞絮游……</summary><content type="html">&lt;h2 id="西江月宝髻松松挽就">&lt;strong>《西江月·宝髻松松挽就》&lt;/strong>&lt;/h2>
+&lt;p>&lt;strong>尺之木必有节目，寸之玉必有瑕瓋。&lt;/strong> ——《离俗览∙聚难》&lt;/p></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/" term="诸子百家" label="诸子百家"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E8%AF%B8%E5%AD%90%E7%99%BE%E5%AE%B6/" term="诸子百家" label="诸子百家"/></entry><entry><title type="text">一些优美的宋词</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/ssci.text/"/><id>https://mowenpan.xyz/excerpt/ssci.text/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-11-06T21:03:56+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">《西江月·宝髻松松挽就》 宋·司马光 宝髻松松挽就，铅华淡淡妆成。 青烟翠雾罩轻盈，飞絮游……</summary><content type="html">&lt;h2 id="西江月宝髻松松挽就">&lt;strong>《西江月·宝髻松松挽就》&lt;/strong>&lt;/h2>
 &lt;p>宋·司马光&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>宝髻松松挽就，铅华淡淡妆成。&lt;/strong>
@@ -653,9 +650,9 @@ $$&lt;/p></content><category scheme="https://mowenpan.xyz/notes/" term="notes" l
 豆蔻连梢煎熟水，莫分茶。&lt;/p>
 &lt;p>&lt;strong>枕上诗书闲处好，门前风景雨来佳。&lt;/strong>
 终日向人多酝藉，木犀花。&lt;/p>
-&lt;/blockquote></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E8%AF%97%E8%AF%8D/" term="诗词" label="诗词"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E5%AE%8B%E8%AF%8D/" term="宋词" label="宋词"/></entry><entry><title type="text">無題20211025</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/20211025wuti/"/><id>https://mowenpan.xyz/essays/20211025wuti/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-10-25T08:14:31+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">日升，月未落 天寒，霜未降 風起，雲散，人動</summary><content type="html">&lt;p>日升，月未落&lt;/p>
+&lt;/blockquote></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E8%AF%97%E8%AF%8D/" term="诗词" label="诗词"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E5%AE%8B%E8%AF%8D/" term="宋词" label="宋词"/></entry><entry><title type="text">無題20211025</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/20211025wuti/"/><id>https://mowenpan.xyz/essays/20211025wuti/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-10-25T08:14:31+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">日升，月未落 天寒，霜未降 風起，雲散，人動</summary><content type="html">&lt;p>日升，月未落&lt;/p>
 &lt;p>天寒，霜未降&lt;/p>
-&lt;p>風起，雲散，人動&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/></entry><entry><title type="text">无穷大与无穷小</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/"/><id>https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-09-22T16:07:05+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">无穷小 无穷小的定义： 如果函数 $f(x)$ 当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的极限为零那么称函数……</summary><content type="html">&lt;h2 id="无穷小">&lt;strong>无穷小&lt;/strong>&lt;/h2>
+&lt;p>風起，雲散，人動&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/></entry><entry><title type="text">无穷大与无穷小</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/"/><id>https://mowenpan.xyz/notes/wuqsdayuwuqsxn.gcuu/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-09-22T16:07:05+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">无穷小 无穷小的定义： 如果函数 $f(x)$ 当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的极限为零那么称函数……</summary><content type="html">&lt;h2 id="无穷小">&lt;strong>无穷小&lt;/strong>&lt;/h2>
 &lt;p>无穷小的&lt;strong>定义&lt;/strong>：&lt;/p>
 &lt;blockquote>
 &lt;p>如果函数 $f(x)$ 当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的极限为零那么称函数 $f(x)$ 为当 $x \rightarrow x_0$ （或 $x \rightarrow \infty$）时的&lt;strong>无穷小&lt;/strong>。&lt;/p>
@@ -701,11 +698,11 @@ $$&lt;/p>
 $$
 \lim \cfrac{\beta}{\alpha} = \lim{\cfrac{\widetilde{\beta}}{\widetilde{\alpha}}}
 $$&lt;/p>
-&lt;/blockquote></content><category scheme="https://mowenpan.xyz/notes/" term="notes" label="notes"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/><category scheme="https://mowenpan.xyz/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/><category scheme="https://mowenpan.xyz/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/" term="微积分" label="微积分"/></entry><entry><title type="text">礼拜</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/libd.vsqq/"/><id>https://mowenpan.xyz/essays/libd.vsqq/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-09-21T15:32:21+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">楼下的穆斯林在做礼拜 我给自己的遗像上了一炷香 仿佛这个人从未来过这个世界 哦，这人好酒 于……</summary><content type="html">&lt;p>楼下的穆斯林在做礼拜&lt;/p>
+&lt;/blockquote></content><category scheme="https://mowenpan.xyz/notes/" term="notes" label="notes"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/><category scheme="https://mowenpan.xyz/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" term="高等数学" label="高等数学"/><category scheme="https://mowenpan.xyz/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/" term="微积分" label="微积分"/></entry><entry><title type="text">礼拜</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/libd.vsqq/"/><id>https://mowenpan.xyz/essays/libd.vsqq/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-09-21T15:32:21+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">楼下的穆斯林在做礼拜 我给自己的遗像上了一炷香 仿佛这个人从未来过这个世界 哦，这人好酒 于……</summary><content type="html">&lt;p>楼下的穆斯林在做礼拜&lt;/p>
 &lt;p>我给自己的遗像上了一炷香&lt;/p>
 &lt;p>仿佛这个人从未来过这个世界&lt;/p>
 &lt;p>哦，这人好酒&lt;/p>
-&lt;p>于是我又奠了一觞酒&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">春醪集小摘</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/llyuiy/iylcji/"/><id>https://mowenpan.xyz/excerpt/llyuiy/iylcji/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-09-18T21:09:56+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">最感动她心的是他曾经年轻过，渐渐的老了，现在是死了。他一生就是这么一回事。青春同壮年……</summary><content type="html">&lt;ul>
+&lt;p>于是我又奠了一觞酒&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">春醪集小摘</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/llyuiy/iylcji/"/><id>https://mowenpan.xyz/excerpt/llyuiy/iylcji/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-09-18T21:09:56+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">最感动她心的是他曾经年轻过，渐渐的老了，现在是死了。他一生就是这么一回事。青春同壮年……</summary><content type="html">&lt;ul>
 &lt;li>
 &lt;p>最感动她心的是他曾经年轻过，渐渐的老了，现在是死了。他一生就是这么一回事。青春同壮年总是这么结局。什么事情都是这么结局。”&lt;/p>
 &lt;/li>
@@ -868,7 +865,7 @@ $$&lt;/p>
 &lt;li>
 &lt;p>把自己心里各种爱好和厌恶的情感，一个一个用理智去怀疑，将无数的价值观念，一条一条打破，这就等于把自己的心一口一口地咬烂嚼化，等到最后对于这个当刽子手的理智也起怀疑，那就是他整个心吃完了的时候，剩下来的只是一个玲珑的空洞。&lt;/p>
 &lt;/li>
-&lt;/ul></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E6%95%A3%E6%96%87/" term="散文" label="散文"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%A2%81%E9%81%87%E6%98%A5/" term="梁遇春" label="梁遇春"/><category scheme="https://mowenpan.xyz/tags/%E6%91%98%E6%8A%84/" term="摘抄" label="摘抄"/></entry><entry><title type="text">韩昌黎语录</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/hjyu/motto/"/><id>https://mowenpan.xyz/excerpt/hjyu/motto/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2021-09-14T22:22:20+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">卷一 原道 博爱之谓仁，行而宜之之谓义，由是而之焉之谓道，足乎己无待于外之谓德。 仁与义为……</summary><content type="html">&lt;h2 id="卷一">卷一&lt;/h2>
+&lt;/ul></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E6%95%A3%E6%96%87/" term="散文" label="散文"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%A2%81%E9%81%87%E6%98%A5/" term="梁遇春" label="梁遇春"/><category scheme="https://mowenpan.xyz/tags/%E6%91%98%E6%8A%84/" term="摘抄" label="摘抄"/></entry><entry><title type="text">韩昌黎语录</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/excerpt/hjyu/motto/"/><id>https://mowenpan.xyz/excerpt/hjyu/motto/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2021-09-14T22:22:20+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">卷一 原道 博爱之谓仁，行而宜之之谓义，由是而之焉之谓道，足乎己无待于外之谓德。 仁与义为……</summary><content type="html">&lt;h2 id="卷一">卷一&lt;/h2>
 &lt;h3 id="原道">原道&lt;/h3>
 &lt;ol>
 &lt;li>&lt;strong>博爱之谓仁，行而宜之之谓义，由是而之焉之谓道，足乎己无待于外之谓德。&lt;/strong> 仁与义为定名，道与德为虚位。故道有君子小人，而德有凶有吉。&lt;/li>
@@ -948,7 +945,7 @@ $$&lt;/p>
 &lt;h3 id="釋言">釋言&lt;/h3>
 &lt;ol>
 &lt;li>夫傲雖凶德，必有而敢行。&lt;/li>
-&lt;/ol></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E9%9F%A9%E6%84%88/" term="韩愈" label="韩愈"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%91%98%E6%8A%84/" term="摘抄" label="摘抄"/><category scheme="https://mowenpan.xyz/tags/%E9%9F%A9%E6%84%88/" term="韩愈" label="韩愈"/></entry><entry><title type="text">流水无痕</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/liushuiwuhen.water/"/><id>https://mowenpan.xyz/essays/liushuiwuhen.water/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2019-09-16T21:42:47+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">天已暮，乌鹊南飞去 梦醒处，流水不留痕 乘着木筏带大海上飘荡 四周望不见大陆 鲸鱼放起冲天的……</summary><content type="html">&lt;blockquote>
+&lt;/ol></content><category scheme="https://mowenpan.xyz/excerpt/" term="excerpt" label="excerpt"/><category scheme="https://mowenpan.xyz/essays/" term="Essays" label="Essays"/><category scheme="https://mowenpan.xyz/excerpt/%E9%9F%A9%E6%84%88/" term="韩愈" label="韩愈"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%91%98%E6%8A%84/" term="摘抄" label="摘抄"/><category scheme="https://mowenpan.xyz/tags/%E9%9F%A9%E6%84%88/" term="韩愈" label="韩愈"/></entry><entry><title type="text">流水无痕</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/liushuiwuhen.water/"/><id>https://mowenpan.xyz/essays/liushuiwuhen.water/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2019-09-16T21:42:47+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">天已暮，乌鹊南飞去 梦醒处，流水不留痕 乘着木筏带大海上飘荡 四周望不见大陆 鲸鱼放起冲天的……</summary><content type="html">&lt;blockquote>
 &lt;p>天已暮，乌鹊南飞去
 梦醒处，流水不留痕&lt;/p>
 &lt;/blockquote>
@@ -981,7 +978,7 @@ $$&lt;/p>
 &lt;p>当我醒来又是风平浪静&lt;/p>
 &lt;blockquote>
 &lt;p>岁月不居，时节如流&lt;/p>
-&lt;/blockquote></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">雨箭</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/yujm.do/"/><id>https://mowenpan.xyz/essays/yujm.do/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2019-09-02T21:50:13+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">黯然消魂者，惟别而已矣。 似乎离别的日子总是要下点雨 风也是寒冷刺骨 再风的助力下 雨箭似要……</summary><content type="html">&lt;blockquote>
+&lt;/blockquote></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">雨箭</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/yujm.do/"/><id>https://mowenpan.xyz/essays/yujm.do/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2019-09-02T21:50:13+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">黯然消魂者，惟别而已矣。 似乎离别的日子总是要下点雨 风也是寒冷刺骨 再风的助力下 雨箭似要……</summary><content type="html">&lt;blockquote>
 &lt;p>黯然消魂者，惟别而已矣。&lt;/p>
 &lt;/blockquote>
 &lt;p>似乎离别的日子总是要下点雨&lt;/p>
@@ -997,7 +994,7 @@ $$&lt;/p>
 &lt;p>路人来往匆匆&lt;/p>
 &lt;p>泥泞的道路，浸湿的裤脚&lt;/p>
 &lt;p>寒蝉鸣泣，夏蛙啜声&lt;/p>
-&lt;p>此处待回转&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">长歌一曲</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/ihgeyiqu.ge/"/><id>https://mowenpan.xyz/essays/ihgeyiqu.ge/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2019-08-31T21:47:17+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">长歌一曲 好风，好梦，好歌，好义气 禁锢 紧闭门窗 我用黑布遮挡住光 蜷缩 默不作声 心脏在律动 聆……</summary><content type="html">&lt;blockquote>
+&lt;p>此处待回转&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">长歌一曲</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/ihgeyiqu.ge/"/><id>https://mowenpan.xyz/essays/ihgeyiqu.ge/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2019-08-31T21:47:17+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">长歌一曲 好风，好梦，好歌，好义气 禁锢 紧闭门窗 我用黑布遮挡住光 蜷缩 默不作声 心脏在律动 聆……</summary><content type="html">&lt;blockquote>
 &lt;p>长歌一曲
 好风，好梦，好歌，好义气&lt;/p>
 &lt;/blockquote>
@@ -1057,7 +1054,7 @@ $$&lt;/p>
 &lt;/blockquote>
 &lt;p>青灯黄卷&lt;/p>
 &lt;p>沙门中谁个曾悟了&lt;/p>
-&lt;p>出家在家有何分别&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">海雪</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/seasnow.snow/"/><id>https://mowenpan.xyz/essays/seasnow.snow/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2019-08-30T21:44:36+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">坠落深海，穿过海雪 双目被污染，肌肤被侵蚀 腐烂，消解 在死亡中孕育新生 往深海更深处溯游 海……</summary><content type="html">&lt;blockquote>
+&lt;p>出家在家有何分别&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">海雪</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/seasnow.snow/"/><id>https://mowenpan.xyz/essays/seasnow.snow/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2019-08-30T21:44:36+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">坠落深海，穿过海雪 双目被污染，肌肤被侵蚀 腐烂，消解 在死亡中孕育新生 往深海更深处溯游 海……</summary><content type="html">&lt;blockquote>
 &lt;p>坠落深海，穿过海雪
 双目被污染，肌肤被侵蚀
 腐烂，消解
@@ -1065,7 +1062,7 @@ $$&lt;/p>
 往深海更深处溯游
 海蓝时便能见到鲸
 那是来自比深海更深处的告别&lt;/p>
-&lt;/blockquote></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">我从星星走来</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/comefromgalaxy/"/><id>https://mowenpan.xyz/essays/comefromgalaxy/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2019-08-30T21:39:46+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">我从星星走来 穿越浩瀚的星海 时间空间已然挡不住我 身披彩霞脚踏祥云来到你脚下 为要攀登你的……</summary><content type="html">&lt;p>我从星星走来&lt;/p>
+&lt;/blockquote></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">我从星星走来</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/comefromgalaxy/"/><id>https://mowenpan.xyz/essays/comefromgalaxy/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2019-08-30T21:39:46+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">我从星星走来 穿越浩瀚的星海 时间空间已然挡不住我 身披彩霞脚踏祥云来到你脚下 为要攀登你的……</summary><content type="html">&lt;p>我从星星走来&lt;/p>
 &lt;p>穿越浩瀚的星海&lt;/p>
 &lt;p>时间空间已然挡不住我&lt;/p>
 &lt;p>身披彩霞脚踏祥云来到你脚下&lt;/p>
@@ -1099,7 +1096,7 @@ $$&lt;/p>
 春天对樱桃树做的事&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;img src="https://i.loli.net/2019/08/30/IpFehWHjxUN8bXL.jpg" alt="Photo by Boris Smokrovic on Unsplash">&lt;/p>
-&lt;p style="text-align:right;font-weight:bold"> 致 十七岁的雨季 &lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">醉生梦死</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/zvugmgsi.zv/"/><id>https://mowenpan.xyz/essays/zvugmgsi.zv/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2019-08-29T21:46:02+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">忽欲饮酒 沉溺酒池肉林 醉生，抑或是梦死 来吧，吸干我的血液 炮烙、腰斩、车裂、寸搩、凌迟 血……</summary><content type="html">&lt;p>忽欲饮酒&lt;/p>
+&lt;p style="text-align:right;font-weight:bold"> 致 十七岁的雨季 &lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">醉生梦死</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/zvugmgsi.zv/"/><id>https://mowenpan.xyz/essays/zvugmgsi.zv/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2019-08-29T21:46:02+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">忽欲饮酒 沉溺酒池肉林 醉生，抑或是梦死 来吧，吸干我的血液 炮烙、腰斩、车裂、寸搩、凌迟 血……</summary><content type="html">&lt;p>忽欲饮酒&lt;/p>
 &lt;p>沉溺酒池肉林&lt;/p>
 &lt;p>醉生，抑或是梦死&lt;/p>
 &lt;p>来吧，吸干我的血液&lt;/p>
@@ -1113,7 +1110,7 @@ $$&lt;/p>
 &lt;p>风沙侵蚀骨殖&lt;/p>
 &lt;p>连刀痕也消失殆尽&lt;/p>
 &lt;p>开出了一朵山茶花在风中摇曳&lt;/p>
-&lt;p>在我殒身的地方&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">尘封</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/chenfeng.soga/"/><id>https://mowenpan.xyz/essays/chenfeng.soga/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2018-10-14T21:29:39+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">风沙掩盖了行人留下的脚步 海水冲刷去恋人的誓言 冰雪掩埋残屍枯骨 细雨温润又是一片盎然春意……</summary><content type="html">&lt;p>风沙掩盖了行人留下的脚步&lt;/p>
+&lt;p>在我殒身的地方&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">尘封</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/chenfeng.soga/"/><id>https://mowenpan.xyz/essays/chenfeng.soga/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2018-10-14T21:29:39+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">风沙掩盖了行人留下的脚步 海水冲刷去恋人的誓言 冰雪掩埋残屍枯骨 细雨温润又是一片盎然春意……</summary><content type="html">&lt;p>风沙掩盖了行人留下的脚步&lt;/p>
 &lt;p>海水冲刷去恋人的誓言&lt;/p>
 &lt;p>冰雪掩埋残屍枯骨&lt;/p>
 &lt;p>细雨温润又是一片盎然春意&lt;/p>
@@ -1137,7 +1134,7 @@ $$&lt;/p>
 &lt;p>来时一丝不挂&lt;/p>
 &lt;p>也便赤条条的走&lt;/p>
 &lt;p>纵身跃进时间的深渊&lt;/p>
-&lt;p>我在果壳中看见了宇宙&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">乘风</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/chengfeng.do/"/><id>https://mowenpan.xyz/essays/chengfeng.do/</id><updated>2021-11-22T08:21:55+00:00</updated><published>2018-09-17T20:00:00+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">乘风好去，长空万里，直下看河山。 风于此处交汇 只要尽力去飞 就能够乘风 乘风好去 尽情歌唱就……</summary><content type="html">&lt;blockquote>
+&lt;p>我在果壳中看见了宇宙&lt;/p></content><category scheme="https://mowenpan.xyz/essays/" term="essays" label="essays"/><category scheme="https://mowenpan.xyz/essays/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/><category scheme="https://mowenpan.xyz/excerpt/" term="Excerpt" label="Excerpt"/><category scheme="https://mowenpan.xyz/notes/" term="Notes" label="Notes"/><category scheme="https://mowenpan.xyz/tags/%E6%83%85%E4%B8%8D%E7%9F%A5%E6%89%80%E8%B5%B7/" term="情不知所起" label="情不知所起"/><category scheme="https://mowenpan.xyz/tags/%E8%83%A1%E4%B9%B1%E5%86%99%E7%9A%84%E4%B8%80%E4%BA%9B%E8%AF%97%E6%AD%8C/" term="胡乱写的一些诗歌" label="胡乱写的一些诗歌"/></entry><entry><title type="text">乘风</title><link rel="alternate" type="text/html" href="https://mowenpan.xyz/essays/chengfeng.do/"/><id>https://mowenpan.xyz/essays/chengfeng.do/</id><updated>2021-11-22T08:40:26+00:00</updated><published>2018-09-17T20:00:00+08:00</published><author><name>暮颜</name><uri>https://mowenpan.xyz/</uri><email>mikufan.pan@foxmail.com</email></author><rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">乘风好去，长空万里，直下看河山。 风于此处交汇 只要尽力去飞 就能够乘风 乘风好去 尽情歌唱就……</summary><content type="html">&lt;blockquote>
 &lt;p>乘风好去，长空万里，直下看河山。&lt;/p>
 &lt;/blockquote>
 &lt;p>风于此处交汇&lt;/p>
