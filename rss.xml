@@ -1,4 +1,391 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.89.4 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Mon, 22 Nov 2021 08:40:29 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>常用积分方法</title><link>https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/</guid><pubDate>Mon, 22 Nov 2021 15:20:26 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="1公式法">&lt;strong>1、公式法&lt;/strong>&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.89.4 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sat, 27 Nov 2021 13:06:25 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>苏东坡诗词选</title><link>https://mowenpan.xyz/excerpt/%E8%8B%8F%E4%B8%9C%E5%9D%A1%E8%AF%97%E8%AF%8D%E9%80%89/</link><guid isPermaLink="true">https://mowenpan.xyz/excerpt/%E8%8B%8F%E4%B8%9C%E5%9D%A1%E8%AF%97%E8%AF%8D%E9%80%89/</guid><pubDate>Sat, 27 Nov 2021 17:39:18 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>[toc]&lt;/p>
+&lt;h2 id="定风波南海归赠王定国侍人寓娘">&lt;strong>《定风波·南海归赠王定国侍人寓娘》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>王定国歌儿曰柔奴，姓宇文氏，眉目娟丽，善应对，家世住京师。定国南迁归，余问柔：“广南风土， 应是不好？”柔对曰：“此心安处，便是吾乡。”因为缀词云。&lt;/p>
+&lt;p>常羡人间琢玉郎，天应乞与点酥娘。尽道清歌传皓齿，风起，雪飞炎海变清凉。&lt;/p>
+&lt;p>万里归来颜愈少，微笑，笑时犹带岭梅香。&lt;strong>试问岭南应不好，却道：此心安处是吾乡。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="水调歌头丙辰中秋">&lt;strong>《水调歌头·丙辰中秋》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;em>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。&lt;/em>&lt;/p>
+&lt;p>明月几时有？把酒问青天。
+不知天上宫阙，今夕是何年。
+我欲乘风归去，又恐琼楼玉宇，高处不胜寒。
+起舞弄清影，何似在人间。&lt;/p>
+&lt;p>转朱阁，低绮户，照无眠。
+不应有恨，何事长向别时圆？
+&lt;strong>人有悲欢离合，月有阴晴圆缺，此事古难全。&lt;/strong>
+但愿人长久，千里共婵娟。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="题西林壁">&lt;strong>《题西林壁》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>横看成岭侧成峰，远近高低各不同。
+&lt;strong>不识庐山真面目，只缘身在此山中。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="惠崇春江晚景">&lt;strong>《惠崇春江晚景》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>竹外桃花三两枝，春江水暖鸭先知。
+蒌蒿满地芦芽短，正是河豚欲上时。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="饮湖上初晴后雨二首其二">&lt;strong>《饮湖上初晴后雨二首·其二》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>水光潋滟晴方好，山色空濛雨亦奇。
+&lt;strong>欲把西湖比西子，淡妆浓抹总相宜。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="和董传留别">&lt;strong>《和董传留别》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>麤缯大布裹生涯，腹有诗书气自华。&lt;/strong>
+厌伴老儒烹瓠叶，强随举子踏槐花。
+囊空不办寻春马，眼乱行看择婿车。
+&lt;strong>得意犹堪夸世俗，诏黄新湿字如鸦。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="定风波">&lt;strong>《定风波》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;em>三月七日，沙湖道中遇雨。雨具先去，同行皆狼狽，餘獨不覺，已而遂晴，故作此。&lt;/em>&lt;/p>
+&lt;p>莫听穿林打叶声，何妨吟啸且徐行。
+&lt;strong>竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。&lt;/strong>&lt;/p>
+&lt;p>料峭春风吹酒醒，微冷，山头斜照却相迎。
+&lt;strong>回首向来萧瑟处，归去，也无风雨也无晴。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="卜算子黄州定慧院寓居作">&lt;strong>《卜算子·黄州定慧院寓居作》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>缺月挂疏桐，漏断人初静。&lt;strong>谁见幽人独往来，缥缈孤鸿影。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>惊起却回头，有恨无人省。拣尽寒枝不肯栖，寂寞沙洲冷。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="西江月世事一场大梦">&lt;strong>《西江月·世事一场大梦》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>世事一场大梦，人生几度秋凉？&lt;/strong> 夜来风叶已鸣廊，看取眉头鬓上。&lt;/p>
+&lt;p>&lt;strong>酒贱常愁客少，月明多被云妨。&lt;/strong> 中秋谁与共孤光，把盏凄然北望。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="浣溪沙游蕲水清泉寺">&lt;strong>《浣溪沙·游蕲水清泉寺》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>游蕲水清泉寺，寺临兰溪，溪水西流。
+山下兰芽短浸溪，松间沙路净无泥，萧萧暮雨子规啼。
+谁&lt;strong>道人生无再少？门前流水尚能西！休将白发唱黄鸡。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="春宵">&lt;strong>《春宵》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>春宵一刻值千金&lt;/strong>，花有清香月有阴。
+歌管楼台声细细，秋千院落夜沉沉。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="赠刘景文">&lt;strong>《赠刘景文》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>荷尽已无擎雨盖，菊残犹有傲霜枝。
+&lt;strong>一年好景君须记，最是橙黄橘绿时。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="行香子过七里濑">&lt;strong>《行香子·过七里濑》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>一叶舟轻，双桨鸿惊。水天清、影湛波平。鱼翻藻鉴，鹭点烟汀。过沙溪急，霜溪冷，月溪明。&lt;/p>
+&lt;p>重重似画，曲曲如屏。算当年、虚老严陵。君臣一梦，今古空名。但远山长，云山乱，晓山青。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="和子由渑池怀旧">&lt;strong>《和子由渑池怀旧》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>人生到处知何似，应似飞鸿踏雪泥。
+泥上偶然留指爪，鸿飞那复计东西。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="减字木兰花莺初解语">&lt;strong>《减字木兰花·莺初解语》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>莺初解语。最是一年春好处。微雨如酥。&lt;/strong> 草色遥看近却无。&lt;/p>
+&lt;p>&lt;strong>休辞醉倒。花不看开人易老。莫待春回。&lt;/strong> 颠倒红英间绿苔。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="浣溪沙簌簌衣巾落枣花">&lt;strong>《浣溪沙·簌簌衣巾落枣花》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>簌簌衣巾落枣花，村南村北响缫车。牛衣古柳卖黄瓜。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>酒困路长惟欲睡，日高人渴漫思茶。敲门试问野人家。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="水龙吟次韵章质夫杨花词">&lt;strong>《水龙吟·次韵章质夫杨花词》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>似花还似非花，也无人惜从教坠。&lt;/strong> 抛家傍路，思量却是，无情有思。萦损柔肠，困酣娇眼，欲开还闭。&lt;strong>梦随风万里，寻郎去处，又还被、莺呼起。&lt;/strong>&lt;/p>
+&lt;p>不恨此花飞尽，恨西园、落红难缀。晓来雨过，遗踪何在？一池萍碎。&lt;strong>春色三分，二分尘土，一分流水。细看来，不是杨花，点点是离人泪。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="蝶恋花春景">&lt;strong>《蝶恋花·春景》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>花褪残红青杏小。燕子飞时，绿水人家绕。&lt;strong>枝上柳绵吹又少，天涯何处无芳草！&lt;/strong>&lt;/p>
+&lt;p>墙里秋千墙外道。墙外行人，墙里佳人笑。&lt;strong>笑渐不闻声渐悄，多情却被无情恼。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="南乡子和杨元素时移守密州">&lt;strong>《南乡子·和杨元素时移守密州》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>东武望余杭，云海天涯两渺茫。&lt;/strong> 何日功成名遂了，还乡，醉笑陪公三万场。&lt;/p>
+&lt;p>&lt;strong>不用诉离觞，痛饮从来别有肠。 今夜送归灯火冷，河塘，堕泪羊公却姓杨。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="南歌子寓意">&lt;strong>《南歌子·寓意》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>雨暗初疑夜，风回忽报晴。淡云斜照著山明。细草软沙溪路、马蹄轻。&lt;/strong>&lt;/p>
+&lt;p>卯酒醒还困，仙材梦不成。蓝桥何处觅云英。&lt;strong>只有多情流水、伴人行。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="水调歌头黄州快哉亭赠张偓佺">&lt;strong>《水调歌头·黄州快哉亭赠张偓佺》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>落日绣帘卷，亭下水连空。&lt;/strong>
+知君为我新作，窗户湿青红。
+&lt;strong>长记平山堂上，欹枕江南烟雨，杳杳没孤鸿。&lt;/strong>
+&lt;strong>认得醉翁语，“山色有无中”。&lt;/strong>&lt;/p>
+&lt;p>一千顷，都镜净，倒碧峰。
+&lt;strong>忽然浪起，掀舞一叶白头翁。&lt;/strong>
+堪笑兰台公子，未解庄生天籁，刚道有雌雄。
+&lt;strong>一点浩然气，千里快哉风。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="望江南超然台作">&lt;strong>《望江南·超然台作》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>春未老，风细柳斜斜。
+试上超然台上望，半壕春水一城花。
+烟雨暗千家。&lt;/p>
+&lt;p>寒食后，酒醒却咨嗟。
+&lt;strong>休对故人思故国，且将新火试新茶。&lt;/strong>
+&lt;strong>诗酒趁年华。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="临江仙夜饮东坡醒复醉">&lt;strong>《临江仙·夜饮东坡醒复醉》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>夜饮东坡醒复醉，归来仿佛三更。&lt;/strong> 家童鼻息已雷鸣。&lt;strong>敲门都不应，倚杖听江声。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>长恨此身非我有，何时忘却营营？&lt;/strong> 夜阑风静縠纹平。小舟从此逝，江海寄余生。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="临江仙送钱穆父">&lt;strong>《临江仙·送钱穆父》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>一别都门三改火，天涯踏尽红尘。依然一笑作春温。&lt;strong>无波真古井，有节是秋筠。&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>惆怅孤帆连夜发，送行淡月微云。&lt;/strong> 樽前不用翠眉颦。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="阳关曲">&lt;strong>《阳关曲》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>暮云收尽溢清寒，银汉无声转玉盘。
+&lt;strong>此生此夜不长好，明月明年何处看。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="念奴娇赤壁怀古">&lt;strong>《念奴娇·赤壁怀古》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>大江东去，浪淘尽，千古风流人物。故垒西边，人道是：三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。&lt;strong>江山如画，一时多少豪杰。&lt;/strong>&lt;/p>
+&lt;p>遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间、樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。&lt;strong>人生如梦，一尊还酹江月。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="海棠">&lt;strong>《海棠》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>东风袅袅泛崇光，香雾空蒙月转廊。
+&lt;strong>只恐夜深花睡去，故烧高烛照红妆。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="浣溪沙软草平莎过雨新">&lt;strong>《浣溪沙·软草平莎过雨新》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>软草平莎过雨新，轻沙走马路无尘。&lt;/strong> 何时收拾耦耕身。&lt;/p>
+&lt;p>日暖桑麻光似泼，风来蒿艾气如薰。使君元是此中人。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="鹧鸪天林断山明竹隐墙">&lt;strong>《鹧鸪天·林断山明竹隐墙》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>林断山明竹隐墙，乱蝉衰草小池塘。&lt;strong>翻空白鸟时时见，照水红蕖细细香。&lt;/strong>&lt;/p>
+&lt;p>村舍外，古城旁，杖藜徐步转斜阳。&lt;strong>殷勤昨夜三更雨，又得浮生一日凉。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="江城子乙卯正月二十日夜记梦">&lt;strong>《江城子·乙卯正月二十日夜记梦》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>十年生死两茫茫。不思量，自难忘。&lt;/strong> 千里孤坟，无处话凄凉。纵使相逢应不识，尘满面，鬓如霜。&lt;/p>
+&lt;p>夜来幽梦忽还乡。小轩窗，正梳妆。&lt;strong>相顾无言，惟有泪千行。料得年年肠断处，明月夜，短松冈。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="花影">&lt;strong>《花影》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>重重叠叠上瑶台，几度呼童扫不开。&lt;/strong>
+&lt;strong>刚被太阳收拾去，却教明月送将来。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="六月二十日夜渡海">&lt;strong>《六月二十日夜渡海》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>参横斗转欲三更，苦雨终风也解晴。&lt;/strong>
+&lt;strong>云散月明谁点缀？天容海色本澄清。&lt;/strong>
+空余鲁叟乘桴意，粗识轩辕奏乐声。
+&lt;strong>九死南荒吾不恨，兹游奇绝冠平生。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="念奴娇中秋">&lt;strong>《念奴娇·中秋》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>凭高眺远，见长空万里，云无留迹。
+&lt;strong>桂魄飞来，光射处，冷浸一天秋碧。&lt;/strong>
+玉宇琼楼，乘鸾来去，人在清凉国。
+江山如画，望中烟树历历。&lt;/p>
+&lt;p>我醉拍手狂歌，举杯邀月，对影成三客。
+&lt;strong>起舞徘徊风露下，今夕不知何夕？&lt;/strong>
+便欲乘风，翻然归去，何用骑鹏翼。
+水晶宫里，一声吹断横笛。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="鹊桥仙七夕送陈令举">&lt;strong>《鹊桥仙·七夕送陈令举》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>缑山仙子，高清云渺，不学痴牛騃女。凤箫声断月明中，举手谢时人欲去。&lt;/p>
+&lt;p>客槎曾犯，银河波浪，尚带天风海雨。&lt;strong>相逢一醉是前缘，风雨散、飘然何处？&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="浣溪沙端午">&lt;strong>《浣溪沙·端午》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>轻汗微微透碧纨，明朝端午浴芳兰。&lt;/strong> 流香涨腻满晴川。&lt;/p>
+&lt;p>&lt;strong>彩线轻缠红玉臂，小符斜挂绿云鬟。&lt;/strong> 佳人相见一千年。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="西江月顷在黄州">&lt;strong>《西江月·顷在黄州》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>顷在黄州，春夜行蕲水中，过酒家饮。酒醉，乘月至一溪桥上，解鞍曲肱，醉卧少休。及觉已晓，乱山攒拥，流水锵然，疑非尘世也。书此语桥柱上。&lt;/p>
+&lt;p>照野弥弥浅浪，横空隐隐层霄。障泥未解玉骢骄，我欲醉眠芳草。&lt;/p>
+&lt;p>可惜一溪风月，莫教踏碎琼瑶。&lt;strong>解鞍欹枕绿杨桥，杜宇一声春晓。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="守岁">&lt;strong>《守岁》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>岁晚相与馈问，为“馈岁”；酒食相邀呼，为“别岁”；至除夜，达旦不眠，为“守岁”，蜀之风俗如是。余官于岐下，岁暮思归而不可得，故为此三诗以寄子由。&lt;/p>
+&lt;p>&lt;strong>欲知垂尽岁，有似赴壑蛇。&lt;/strong>
+修鳞半已没，去意谁能遮。
+况欲系其尾，虽勤知奈何。
+&lt;strong>儿童强不睡，相守夜欢哗。&lt;/strong>
+晨鸡且勿唱，更鼓畏添挝。
+坐久灯烬落，起看北斗斜。
+&lt;strong>明年岂无年，心事恐蹉跎。&lt;/strong>
+努力尽今夕，少年犹可夸。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="西江月梅花">&lt;strong>《西江月·梅花》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>玉骨那愁瘴雾，冰姿自有仙风。&lt;/strong> 海仙时遣探芳丛，倒挂绿毛幺凤。&lt;/p>
+&lt;p>素面翻嫌粉涴，洗妆不褪唇红。高情已逐晓云空，不与梨花同梦。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="八声甘州寄参寥子">&lt;strong>《八声甘州·寄参寥子》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>有情风万里卷潮来，无情送潮归。&lt;/strong>
+问钱塘江上，西兴浦口，几度斜晖？
+&lt;strong>不用思量今古，俯仰昔人非。&lt;/strong>
+谁似东坡老，白首忘机。&lt;/p>
+&lt;p>记取西湖西畔，正春山好处，空翠烟霏。
+算诗人相得，如我与君稀。
+约它年、东还海道，愿谢公雅志莫相违。
+西州路，不应回首，为我沾衣。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="浣溪沙细雨斜风作晓寒">&lt;strong>《浣溪沙·细雨斜风作晓寒》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>元丰七年十二月二十四日，从泗州刘倩叔游南山。&lt;/p>
+&lt;p>细雨斜风作晓寒，淡烟疏柳媚晴滩。入淮清洛渐漫漫。&lt;/p>
+&lt;p>&lt;strong>雪沫乳花浮午盏，蓼茸蒿笋试春盘。人间有味是清欢。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="江神子江景">&lt;strong>《江神子·江景》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>湖上与张先同赋，时闻弹筝&lt;/p>
+&lt;p>凤凰山下雨初晴，水风清，晚霞明。**一朵芙蕖，开过尚盈盈。**何处飞来双白鹭，如有意，慕娉婷。&lt;/p>
+&lt;p>忽闻江上弄哀筝，苦含情，遣谁听！烟敛云收，依约是湘灵。欲待曲终寻问取，人不见，数峰青。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="南歌子游赏">&lt;strong>《南歌子·游赏》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>山与歌眉敛，波同醉眼流。&lt;/strong>
+游人都上十三楼。不羡竹西歌吹、古扬州。&lt;/p>
+&lt;p>菰黍连昌歜，琼彝倒玉舟。
+谁家水调唱歌头。声绕碧山飞去、晚云留。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="有美堂暴雨">&lt;strong>《有美堂暴雨》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>游人脚底一声雷，满座顽云拨不开。&lt;/strong>
+&lt;strong>天外黑风吹海立，浙东飞雨过江来。&lt;/strong>
+十分潋滟金樽凸，千杖敲铿羯鼓催。
+唤起谪仙泉洒面，倒倾鲛室泻琼瑰。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="蝶恋花蝶懒莺慵春过半">&lt;strong>《蝶恋花·蝶懒莺慵春过半》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>蝶懒莺慵春过半。花落狂风，小院残红满。午醉未醒红日晚，黄昏帘幕无人卷。&lt;/p>
+&lt;p>云鬓鬅松眉黛浅。&lt;strong>总是愁媒，欲诉谁消遣。&lt;/strong> &lt;strong>未信此情难系绊，杨花犹有东风管。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="虞美人有美堂赠述古">&lt;strong>《虞美人·有美堂赠述古》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>湖山信是东南美，一望弥千里。&lt;/strong>
+使君能得几回来？便使樽前醉倒、更徘徊。&lt;/p>
+&lt;p>沙河塘里灯初上，水调谁家唱？
+&lt;strong>夜阑风静欲归时，惟有一江明月、碧琉璃。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="少年游润州作">&lt;strong>《少年游·润州作》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>去年相送，馀杭门外，飞雪似杨花。&lt;/strong> 今年春尽，杨花似雪，犹不见还家。
+对酒卷帘邀明月，风露透窗纱。恰似姮娥怜双燕，分明照、画梁斜。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="蝶恋花密州上元">&lt;strong>《蝶恋花·密州上元》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>灯火钱塘三五夜，明月如霜，照见人如画。&lt;/strong>
+帐底吹笙香吐麝，更无一点尘随马。&lt;/p>
+&lt;p>寂寞山城人老也！击鼓吹箫，却入农桑社。
+&lt;strong>火冷灯稀霜露下，昏昏雪意云垂野。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="定风波红梅">&lt;strong>《定风波·红梅》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>好睡慵开莫厌迟。自怜冰脸不时宜。偶作小红桃杏色，闲雅，尚馀孤瘦雪霜姿。
+休把闲心随物态，何事，酒生微晕沁瑶肌。&lt;strong>诗老不知梅格在，吟咏，更看绿叶与青枝。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="永遇乐彭城夜宿燕子楼">&lt;strong>《永遇乐·彭城夜宿燕子楼》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>明月如霜，好风如水，清景无限。
+&lt;strong>曲港跳鱼，圆荷泻露，寂寞无人见。&lt;/strong>
+紞如三鼓，铿然一叶，黯黯梦云惊断。
+夜茫茫，重寻无处，觉来小园行遍。&lt;/p>
+&lt;p>&lt;strong>天涯倦客，山中归路，望断故园心眼。&lt;/strong>
+燕子楼空，佳人何在，空锁楼中燕。
+&lt;strong>古今如梦，何曾梦觉，但有旧欢新怨。&lt;/strong>
+异时对，黄楼夜景，为余浩叹。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="赵昌寒菊">&lt;strong>《赵昌寒菊》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>轻肌弱骨散幽葩，更将金蕊泛流霞。&lt;/strong>
+欲知却老延龄药，百草摧时始起花。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="书李世南所画秋景">&lt;strong>《书李世南所画秋景》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>野水参差落涨痕，疏林欹倒出霜根。
+&lt;strong>扁舟一棹归何处？家在江南黄叶村。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="贺新郎夏景">&lt;strong>《贺新郎·夏景》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>乳燕飞华屋，悄无人、桐阴转午，晚凉新浴。
+&lt;strong>手弄生绡白团扇，扇手一时似玉。&lt;/strong>
+渐困倚、孤眠清熟。
+帘外谁来推绣户？枉教人梦断瑶台曲。
+又却是、风敲竹。&lt;/p>
+&lt;p>石榴半吐红巾蹙，待浮花浪蕊都尽，伴君幽独。
+秾艳一枝细看取，芳心千重似束。
+又恐被、秋风惊绿。
+&lt;strong>若待得君来向此，花前对酒不忍触。&lt;/strong>
+共粉泪、两簌簌。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="李思训画长江绝岛图">&lt;strong>《李思训画长江绝岛图》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>山苍苍，水茫茫，大孤小孤江中央。&lt;/strong>
+崖崩路绝猿鸟去，惟有乔木搀天长。
+客舟何处来，棹歌中流声抑扬。
+沙平风软望不到，孤山久与船低昂。
+峨峨两烟鬟，晓镜开新妆。
+舟中贾客莫漫狂，小姑前年嫁彭郎。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="望海楼晚景横风吹雨入楼斜">&lt;strong>《望海楼晚景·横风吹雨入楼斜》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>横风吹雨入楼斜，壮观应须好句夸。&lt;/strong>
+雨过潮平江海碧，电光时掣紫金蛇。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="正月二十日往岐亭郡人潘古郭三人送余于女王城东禅庄院">&lt;strong>《正月二十日往岐亭郡人潘古郭三人送余于女王城东禅庄院》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>十日春寒不出门，不知江柳已摇村。&lt;/strong>
+稍闻决决流冰谷，尽放青青没烧痕。
+数亩荒园留我住，半瓶浊酒待君温。
+去年今日关山路，细雨梅花正断魂。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="虢国夫人夜游图">&lt;strong>《虢国夫人夜游图》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>佳人自鞚玉花骢，翩如惊燕蹋飞龙。&lt;/strong>
+金鞭争道宝钗落，何人先入明光宫。
+宫中羯鼓催花柳，玉奴弦索花奴手。
+坐中八姨真贵人，走马来看不动尘。
+&lt;strong>明眸皓齿谁复见，只有丹青余泪痕。&lt;/strong>
+人间俯仰成今古，吴公台下雷塘路。
+当时亦笑张丽华，不知门外韩擒虎。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="减字木兰花春月">&lt;strong>《减字木兰花·春月》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>春庭月午，摇荡香醪光欲舞。
+步转回廊，半落梅花婉娩香。&lt;/p>
+&lt;p>轻云薄雾，总是少年行乐处。
+&lt;strong>不似秋光，只与离人照断肠。&lt;/strong>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="菩萨蛮回文夏闺怨">&lt;strong>《菩萨蛮·回文夏闺怨》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>柳庭风静人眠昼，昼眠人静风庭柳。&lt;/strong>
+香汗薄衫凉，凉衫薄汗香。&lt;/p>
+&lt;p>手红冰碗藕，藕碗冰红手。
+郎笑藕丝长，长丝藕笑郎。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="水调歌头安石在东海">&lt;strong>《水调歌头·安石在东海》&lt;/strong>&lt;/h2>
+&lt;blockquote>
+&lt;p>余去岁在东武，作《水调歌头》以寄子由。今年子由相从彭门居百余日，过中秋而去，作此曲以别。余以其语过悲，乃为和之，其意以不早退为戒，以退而相从之乐为慰云耳&lt;/p>
+&lt;p>安石在东海，从事鬓惊秋。
+中年亲友难别，丝竹缓离愁。
+一旦功成名遂，准拟东还海道，扶病入西州。
+雅志困轩冕，遗恨寄沧洲。&lt;/p>
+&lt;p>岁云暮，须早计，要褐裘。
+故乡归去千里，佳处辄迟留。
+&lt;strong>我醉歌时君和，醉倒须君扶我，惟酒可忘忧。&lt;/strong>
+一任刘玄德，相对卧高楼。&lt;/p>
+&lt;/blockquote></description><category domain="https://mowenpan.xyz/excerpt/">excerpt</category><category domain="https://mowenpan.xyz/essays/">Essays</category><category domain="https://mowenpan.xyz/excerpt/%E8%AF%97%E8%AF%8D/">诗词</category><category domain="https://mowenpan.xyz/notes/">Notes</category><category domain="https://mowenpan.xyz/tags/%E8%8B%8F%E8%BD%BC/">苏轼</category><category domain="https://mowenpan.xyz/tags/%E8%AF%97%E8%AF%8D/">诗词</category></item><item><title>常用积分方法</title><link>https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/ihyswwjifffhfa.yyds/</guid><pubDate>Mon, 22 Nov 2021 15:20:26 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="1公式法">&lt;strong>1、公式法&lt;/strong>&lt;/h2>
 &lt;p>使用积分表中的公式可直接求得积分。&lt;/p>
 &lt;h3 id="一含有-axb-的积分">&lt;strong>（一）含有 $ax+b$ 的积分&lt;/strong>&lt;/h3>
 &lt;p>$$
