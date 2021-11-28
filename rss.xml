@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.89.4 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sun, 28 Nov 2021 04:18:40 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>泰勒公式</title><link>https://mowenpan.xyz/notes/tdlegsui.note/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/tdlegsui.note/</guid><pubDate>Sun, 28 Nov 2021 08:22:44 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="泰勒定理">&lt;strong>泰勒定理&lt;/strong>&lt;/h2>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.89.4 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sun, 28 Nov 2021 04:21:48 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>泰勒公式</title><link>https://mowenpan.xyz/notes/tdlegsui.note/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/tdlegsui.note/</guid><pubDate>Sun, 28 Nov 2021 08:22:44 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;h2 id="泰勒定理">&lt;strong>泰勒定理&lt;/strong>&lt;/h2>
 &lt;p>对于一般的函数，泰勒公式的系数的选择依赖于函数&lt;strong>在一点的各阶导数值&lt;/strong>。这个想法的原由可以由&lt;strong>微分的定义&lt;/strong>开始。微分是函数在一点附近的最佳线性近似：&lt;/p>
 &lt;p>$$
 f(a + h) = f(a) + f^{\prime}(a)h + o(h),其中 o(h) 是比 h \textbf{高阶} 的无穷小。 \nonumber
@@ -60,7 +60,7 @@ $$&lt;/p>
 \alpha \\
 n
 \end{array}
-\right) x^{n} = 1 + \alpha x + \frac{\alpha(\alpha-1)}{2 !} x^{2} + \cdots + \frac{\alpha(\alpha-1) \cdots (\alpha-n+1)}{n !} x^{n}+\cdots \\
+\right) x^{n} = 1 + \alpha x + \frac{\alpha(\alpha-1)}{2 !} x^{2} + \cdots + \frac{\alpha(\alpha-1) \cdots (\alpha-n+1)}{n !} x^{n} + \cdots \\
 \forall x : \lvert x \rvert &amp;lt; 1, \forall \alpha \in \mathbb{C} \nonumber
 $$&lt;/p>
 &lt;p>二项式系数 $\displaystyle \left(
