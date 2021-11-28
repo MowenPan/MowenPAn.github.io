@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.89.4 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sat, 27 Nov 2021 13:16:38 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>苏东坡诗词选</title><link>https://mowenpan.xyz/excerpt/%E8%8B%8F%E4%B8%9C%E5%9D%A1%E8%AF%97%E8%AF%8D%E9%80%89/</link><guid isPermaLink="true">https://mowenpan.xyz/excerpt/%E8%8B%8F%E4%B8%9C%E5%9D%A1%E8%AF%97%E8%AF%8D%E9%80%89/</guid><pubDate>Sat, 27 Nov 2021 17:39:18 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>[toc]&lt;/p>
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>乘风</title><link>https://mowenpan.xyz/</link><description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description><generator>Hugo 0.89.4 https://gohugo.io/</generator><language>zh-CN</language><managingEditor>mikufan.pan@foxmail.com (暮颜)</managingEditor><webMaster>mikufan.pan@foxmail.com (暮颜)</webMaster><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><lastBuildDate>Sun, 28 Nov 2021 03:33:38 +0000</lastBuildDate><atom:link rel="self" type="application/rss+xml" href="https://mowenpan.xyz/rss.xml"/><item><title>20211128泰勒公式</title><link>https://mowenpan.xyz/notes/tdlegsui.note/</link><guid isPermaLink="true">https://mowenpan.xyz/notes/tdlegsui.note/</guid><pubDate>Sun, 28 Nov 2021 08:22:44 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>[TOC]&lt;/p>
+&lt;h2 id="泰勒定理">&lt;strong>泰勒定理&lt;/strong>&lt;/h2>
+&lt;p>对于一般的函数，泰勒公式的系数的选择依赖于函数&lt;strong>在一点的各阶导数值&lt;/strong>。这个想法的原由可以由&lt;strong>微分的定义&lt;/strong>开始。微分是函数在一点附近的最佳线性近似：&lt;/p>
+&lt;p>$$
+f(a + h) = f(a) + f^{\prime}(a)h + o(h),其中 o(h) 是比 h \textbf{高阶} 的无穷小。 \nonumber
+$$&lt;/p>
+&lt;p>也就是说 $\displaystyle f(a + h) \approx f(a) + f^{\prime}(a)h$ ， 或 $\displaystyle f(x) \approx f(a) + f^{\prime}(a)(x - a)$ 。&lt;/p>
+&lt;p>注意到 $\displaystyle f(x)$ 和 $\displaystyle f(a) + f^{\prime}(a)(x - a)$ 在 $\displaystyle a$ 处的零阶导数和一阶导数相同。对 &lt;strong>足够光滑&lt;/strong> 的函数，如果一个多项式在 $\displaystyle a$ 处的前 $\displaystyle n$ 次导数值都与函数在 $\displaystyle a$ 处的前 $\displaystyle n$ 次导数值重合，那么这个多项式应该能很好地近似描述函数在 $\displaystyle a$ 附近的情况。&lt;/p>
+&lt;blockquote>
+&lt;p>定理：
+设 $\displaystyle n$ 是一个正整数，如果定义在一个包含 $\displaystyle a$ 的区间上的函数 $\displaystyle f$ 在 $\displaystyle a$ 点处 $\displaystyle n + 1$ 次可导，那么对于这个区间上的任意 $\displaystyle x$ 都有：&lt;/p>
+&lt;p>$$
+f(x) = f(a) + \cfrac{f^{\prime}(a)}{1!}(x - a) + \cfrac{f^{(2)}(a)}{2!}(x - a)^2 + \cdots + \cfrac{f^{(n)}(a)}{n!}(x - a)^n + R_n(x) \nonumber
+$$&lt;/p>
+&lt;p>其中的多项式称为函数在 $\displaystyle a$ 处的 &lt;strong>泰勒展开式&lt;/strong> ，剩余的 $\displaystyle R_n(x)$ 是泰勒公式的 &lt;strong>余项&lt;/strong> ，是 $\displaystyle (x - a)^n$ 的&lt;strong>高阶无穷小&lt;/strong>。&lt;/p>
+&lt;/blockquote>
+&lt;p>$\displaystyle R_n(x)$ 的表达式有若干种，分别以不同的数学家命名。&lt;/p>
+&lt;p>带有 &lt;strong>皮亚诺型余项&lt;/strong> 的泰勒公式说明了多项式和函数的接近程度：&lt;/p>
+&lt;p>$$
+f(x) = f(a) + \cfrac{f^{\prime}(a)}{1!}(x - a) + \cfrac{f^{(2)}(a)}{2!}(x - a)^2 + \cdots + \cfrac{f^{(n)}(a)}{n!}(x - a)^n + o \left[ (x - a)^n \right] \nonumber
+$$&lt;/p>
+&lt;p>也就是说，当 $\displaystyle x$ 无限趋近 $\displaystyle a$ 时，余项 $\displaystyle R_{n}(x)$ 将会是 ${\displaystyle (x-a)^{n}}$ 的高阶无穷小，或者说多项式和函数的误差将远小于 ${\displaystyle (x-a)^{n}}$ 。这个结论可以由下面更强的结论推出。&lt;/p>
+&lt;p>带有 &lt;strong>拉格朗日型余项&lt;/strong> 的泰勒公式可以视为拉格朗日微分中值定理的推广：&lt;/p>
+&lt;p>$$
+f(x) = f(a) + \cfrac{f^{\prime}(a)}{1!}(x - a) + \cfrac{f^{(2)}(a)}{2!}(x - a)^2 + \cdots + \cfrac{f^{(n)}(a)}{n!}(x - a)^n + \cfrac{f^{(n + 1)}(\theta)}{(n + 1)!}(x - a)^{n + 1} \nonumber
+$$&lt;/p>
+&lt;p>即 $\displaystyle R_n(x) = \cfrac{f^{(n + 1)}(\theta)}{(n + 1)!}(x - a)^{n + 1}$ ，其中 $\displaystyle \theta \in (a, x)$ 。&lt;/p>
+&lt;p>带有 &lt;strong>积分型余项&lt;/strong> 的泰勒公式可以看做微积分基本定理的推广：&lt;/p>
+&lt;p>$$
+R_n(x) = \int_a^x \cfrac{f^{(n + 1)}(t)}{n!} (x - t)^n \mathrm{d}t \nonumber
+$$&lt;/p>
+&lt;h2 id="余项估计">&lt;strong>余项估计&lt;/strong>&lt;/h2>
+&lt;p>拉格朗日型余项或积分型余项可以帮助估计泰勒展开式和函数在一定区间之内的误差。设函数在区间 $\displaystyle [a − r, a + r]$ 上 $\displaystyle n$ 次连续可微并且在区间 $\displaystyle (a − r, a + r)$ 上 $\displaystyle n + 1$ 次可导。如果存在正实数 $\displaystyle M_n$ 使得区间 $\displaystyle (a − r, a + r)$ 里的任意$\displaystyle x$ 都有 $\displaystyle \left| f^{(n + 1)}(x) \right| \leqslant M_n$，那么：&lt;/p>
+&lt;p>$$
+f(x) = f(a) + \cfrac{f^{\prime}(a)}{1!}(x - a) + \cfrac{f^{(2)}(a)}{2!}(x - a)^2 + \cdots + \cfrac{f^{(n)}(a)}{n!}(x - a)^n + R_n(x) \nonumber
+$$&lt;/p>
+&lt;p>其中 $\displaystyle \left \vert R_n(x) \right \vert \leqslant M_n \cfrac{r^{n + 1}}{(n + 1)!}$ 。这个上界估计对区间 $\displaystyle (a - r, a + r)$ 里的任意 $\displaystyle x$ 都成立，是一个一致估计。&lt;/p>
+&lt;p>如果当 $\displaystyle n$ 趋向于无穷大时，还有 $\displaystyle M_n \cfrac{r^(n + 1)}{(n + 1)!} \rightarrow 0$ ，那么可以推出 $\displaystyle R_n(x) \rightarrow 0$ ， $\displaystyle f$ 是区间 $\displaystyle (a - r, a + r)$ 上的解析函数。 $\displaystyle f$ 在区间 $\displaystyle (a - r, a + r)$ 上任意一点的值都等于在这一点的 &lt;strong>泰勒展开式的极限&lt;/strong> 。&lt;/p>
+&lt;h2 id="麦克劳林公式">&lt;strong>麦克劳林公式&lt;/strong>&lt;/h2>
+&lt;p>对于一个在 &lt;strong>实数或复数&lt;/strong> $\displaystyle a$ 邻域上，以实数作为变量或以复数作为变量的函数，并且是无穷可微的函数 $\displaystyle f(x)$ ，它的泰勒级数是以下这种形式的幂级数：&lt;/p>
+&lt;p>$$
+\displaystyle f(x) = \sum_{n = 0}^{\infty} \cfrac{f^{(n)}(a)}{n!}(x - a)^n \nonumber
+$$&lt;/p>
+&lt;p>如果 $\displaystyle a=0$ ，也可以把这个级数称为&lt;strong>麦克劳林级数&lt;/strong>。&lt;/p>
+&lt;h3 id="解析函数">&lt;strong>解析函数&lt;/strong>&lt;/h3>
+&lt;p>如果泰勒级数对于区间 $\displaystyle (a-r,a+r)$ 中的所有$\displaystyle x$都收敛并且级数的和等于 $\displaystyle f(x)$ ，那么我们就称函数 $\displaystyle f(x)$ 为 &lt;strong>解析函数或解析形的函数&lt;/strong> （analytic）。一个函数 &lt;strong>当且仅当&lt;/strong>（简单地说，“只有在且只要在”）能够被表示为 &lt;strong>幂级数&lt;/strong> 的形式时，才是解析形的函数。通常会用 &lt;strong>泰勒定理&lt;/strong> 来估计级数的 &lt;strong>余项&lt;/strong> ，这样就能够确定级数是否收敛于 $\displaystyle f(x)$ 。上面给出的幂级数展开式中的系数正好是泰勒级数中的系数。&lt;/p>
+&lt;p>以下三个事实可以说明为什么泰勒级数是十分重要的：&lt;/p>
+&lt;ol>
+&lt;li>可以逐项对幂级数的计算微分和积分，因此求和函数相对比较容易。&lt;/li>
+&lt;li>数学家因此能够在复数平面上研究函数，因为一个解析函数，也可以被定义为在复平面中一个开放的区间内的解析函数(在区间内每一个点上都能被微分的函数)。&lt;/li>
+&lt;li>可用泰勒级数估计，在某一点上函数会计算出什么值。&lt;/li>
+&lt;/ol>
+&lt;h3 id="常用的函数的麦克劳林级数">&lt;strong>常用的函数的麦克劳林级数&lt;/strong>&lt;/h3>
+&lt;h4 id="几何级数">&lt;strong>几何级数&lt;/strong>&lt;/h4>
+&lt;p>$$
+\cfrac{1}{1 - x} = \sum_{n = 0}^{\infty} x^n = 1 + x + x^2 + \cdots + x^n + \cdots \quad \forall x : \lvert x \rvert &amp;lt; 1 \nonumber
+$$&lt;/p>
+&lt;h4 id="二项式级数">&lt;strong>二项式级数&lt;/strong>&lt;/h4>
+&lt;p>$$
+(1+x)^{\alpha}=\sum_{n=0}^{\infty} \left( \begin{array}{l}
+\alpha \\
+n
+\end{array}
+\right) x^{n} = 1 + \alpha x + \frac{\alpha(\alpha-1)}{2 !} x^{2} + \cdots + \frac{\alpha(\alpha-1) \cdots (\alpha-n+1)}{n !} x^{n}+\cdots , \quad \forall x : \lvert x \rvert &amp;lt; 1, \forall \alpha \in \mathbb{C} \\
+\text{二项式系数} \left(
+\begin{array}{l}
+\alpha \\
+n
+\end{array} \right)
+= \prod_{k=1}^{n} \frac{\alpha-k+1}{k}
+= \frac{\alpha(\alpha-1) \cdots(\alpha-n+1)}{n!} \text{。} \nonumber
+$$&lt;/p>
+&lt;h4 id="指数函数和自然对数">&lt;strong>指数函数和自然对数&lt;/strong>&lt;/h4>
+&lt;p>$$
+\begin{align}
+e^{x} &amp;amp;= \sum_{n=0}^{\infty} \frac{x^{n}}{n !} = 1 + x + \frac{x^{2}}{2!} + \frac{x^{3}}{3!} + \cdots + \frac{x^{n}}{n!} + \cdots \quad \forall x \quad \text{(对所有x都成立)} \nonumber \\
+\ln(1 - x) &amp;amp;= -\sum_{n = 1}^{\infty} \frac{x^{n}}{n} = -x - \frac{x^{2}}{2} - \frac{x^{3}}{3} - \cdots - \frac{x^{n}}{n} - \cdots \quad \forall x \in [-1,1) \quad \text{(对于在区间[-1,1)内所有的x都成立)} \nonumber \\
+\ln(1 + x) &amp;amp;= \sum_{n = 1}^{\infty} \frac{(-1)^{n + 1}}{n} x^{n} = x - \frac{x^{2}}{2} + \frac{x^{3}}{3} - \cdots + \frac{(-1)^{n+1}}{n} x^{n} + \cdots \quad \forall x \in(-1,1] \quad \text{(对于在区间(-1,1]内所有的x都成立)} \nonumber
+\end{align}
+$$&lt;/p>
+&lt;h4 id="三角函数">&lt;strong>三角函数&lt;/strong>&lt;/h4>
+&lt;p>$$
+\begin{align}
+\sin x &amp;amp;= \sum_{n = 0}^{\infty} \frac{(-1)^{n}}{(2n + 1)!} x^{2n + 1} &amp;amp;=&amp;amp; x - \frac{x^{3}}{3!} + \frac{x^{5}}{5!} - \cdots &amp;amp;\quad \forall x \nonumber \\
+\cos x &amp;amp;= \sum_{n = 0}^{\infty} \frac{(-1)^{n}}{(2n)!} x^{2n} &amp;amp;=&amp;amp; 1 - \frac{x^{2}}{2!} + \frac{x^{4}}{4!} - \cdots &amp;amp;\quad \forall x \nonumber \\
+\arcsin x &amp;amp;= \sum_{n = 0}^{\infty} \frac{(2 n)!}{4^{n}(n!)^{2}(2n + 1)} x^{2n + 1} &amp;amp;=&amp;amp; x + \frac{x^{3}}{6} + \frac{3 x^{5}}{40} + \cdots &amp;amp;\quad \forall x:|x| \leq 1 \nonumber \\
+\arccos x &amp;amp;= \frac{\pi}{2} - \arcsin x \\
+&amp;amp;= \frac{\pi}{2} - \sum_{n = 0}^{\infty} \frac{(2n)!}{4^{n}(n!)^{2}(2n + 1)} x^{2n + 1} &amp;amp;=&amp;amp; \frac{\pi}{2} - x - \frac{x^{3}}{6} - \frac{3x^{5}}{40} + \cdots &amp;amp;\quad \forall x:|x| \leq 1 \\
+\arctan x &amp;amp;= \sum_{n= 0 }^{\infty} \frac{(-1)^{n}}{2n + 1} x^{2n + 1} &amp;amp;=&amp;amp; x - \frac{x^{3}}{3} + \frac{x^{5}}{5} - \cdots &amp;amp;\quad \forall x:|x| \leq 1, x \neq \pm i \nonumber
+\end{align}
+$$&lt;/p>
+&lt;h2 id="几个重要的低阶展开的麦克劳林公式">&lt;strong>几个重要的低阶展开的麦克劳林公式&lt;/strong>&lt;/h2>
+&lt;ol>
+&lt;li>$\displaystyle {\sin x=x-\frac{x^{3}}{3 !}+O\left(x^{3}\right), \arcsin x=x+\frac{x^{3}}{3 !}+O\left(x^{3}\right)}$&lt;/li>
+&lt;li>$\displaystyle {\tan x=x+\frac{x^{3}}{3}+O\left(x^{3}\right), \arctan x=x-\frac{x^{3}}{3}+O\left(x^{3}\right)}$&lt;/li>
+&lt;li>$\displaystyle {\cos x=1-\frac{x^{2}}{2 !}+\frac{x^{4}}{4 !}+O\left(x^{4}\right), \arccos x=\frac{\pi}{2}-x-\frac{x^{3}}{3 !}-O\left(x^{3}\right)}$&lt;/li>
+&lt;li>$\displaystyle {\ln (1+x)=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}+O\left(x^{3}\right)}$&lt;/li>
+&lt;li>$\displaystyle {e^{x}=1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+O\left(x^{3}\right)}$&lt;/li>
+&lt;li>$\displaystyle {(1+x)^{\alpha}=1+\alpha x+\frac{\alpha(\alpha-1)}{2 !} x^{2}+O\left(x^{2}\right)}$&lt;/li>
+&lt;/ol></description><category domain="https://mowenpan.xyz/notes/">notes</category><category domain="https://mowenpan.xyz/essays/">Essays</category><category domain="https://mowenpan.xyz/excerpt/">Excerpt</category><category domain="https://mowenpan.xyz/notes/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/">高等数学</category><category domain="https://mowenpan.xyz/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/">高等数学</category><category domain="https://mowenpan.xyz/tags/%E5%BE%AE%E7%A7%AF%E5%88%86/">微积分</category></item><item><title>苏东坡诗词选</title><link>https://mowenpan.xyz/excerpt/%E8%8B%8F%E4%B8%9C%E5%9D%A1%E8%AF%97%E8%AF%8D%E9%80%89/</link><guid isPermaLink="true">https://mowenpan.xyz/excerpt/%E8%8B%8F%E4%B8%9C%E5%9D%A1%E8%AF%97%E8%AF%8D%E9%80%89/</guid><pubDate>Sat, 27 Nov 2021 17:39:18 +0800</pubDate><author>mikufan.pan@foxmail.com (暮颜)</author><copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright><description>&lt;p>[toc]&lt;/p>
 &lt;h2 id="定风波南海归赠王定国侍人寓娘">&lt;strong>《定风波·南海归赠王定国侍人寓娘》&lt;/strong>&lt;/h2>
 &lt;blockquote>
 &lt;p>王定国歌儿曰柔奴，姓宇文氏，眉目娟丽，善应对，家世住京师。定国南迁归，余问柔：“广南风土， 应是不好？”柔对曰：“此心安处，便是吾乡。”因为缀词云。&lt;/p>
